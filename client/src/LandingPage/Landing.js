@@ -1,9 +1,9 @@
 import { useState } from "react";
-import About from "./About";
+import About from "../Section-About/About";
 import BrandsContainer from "./BrandsContainer";
 import Carousel from "./Carousel";
 import Contact from "./Contact";
-import Courtyard from "./Courtyard";
+import Courtyard from "../Section-Courtyard/Courtyard";
 import ForLease from "./ForLease";
 import chevronUp from "../assets/Icons/chevron-up.svg";
 
