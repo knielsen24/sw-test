@@ -9,7 +9,7 @@ function About() {
     //     "https://looplink.logiccre.com/Listing/300-328-S-Wells-Ave-Reno-NV/20673499/";
     const googleMaps = "https://goo.gl/maps/UgPqfKpSQzDPGErZA";
 
-    const pTagClass = "mt-3";
+    const pTagClass = "mt-3 mb-0";
 
     return (
         <div className="col section mx-auto my-2 justify-content-center p-4">
@@ -35,7 +35,7 @@ function About() {
                     </h5>
                 </div>
                 <div className="row mt-3 justify-content-center">
-                    <div className="col prop-highlights">
+                    <div className="col p-3 prop-highlights bg-white rounded-4 shadow">
                         <img classname="m-5" src={bricksIcon} width="30px" alt="brick icon" />
                         <p className={pTagClass}>
                             Recently redeveloped multi-tenant mixed-use building
