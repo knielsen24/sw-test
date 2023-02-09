@@ -12,7 +12,7 @@ function About() {
     const pTagClass = "mt-3";
 
     return (
-        <div className="col section mx-auto mt-2 justify-content-center p-1">
+        <div className="col section mx-auto my-2 justify-content-center p-4">
             <h4 className="my-3 p-1 rounded text-uppercase ">
                 About
             </h4>

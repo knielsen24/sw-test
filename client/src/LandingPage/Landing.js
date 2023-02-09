@@ -43,7 +43,7 @@ function Landing() {
             <div className="row p-0 w-auto justify-content-center">
                 <Carousel />
             </div>
-            <div className="row p-1 my-5 w-auto justify-content-center lime-bg " id="about">
+            <div className="row p-1 my-5 w-auto justify-content-center mint-bg " id="about">
                 <About />
             </div>
 
