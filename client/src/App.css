@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+    position: relative;
+    overflow-y: auto;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    scroll-padding-top: 55px;
+}
+
+#app-container {
+    top: 0;
+    width: 100%;
+    min-width: 280px;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin: auto;
+    bottom:0;
+}
+
+.App {
+    text-align: center;
+}
+
+.main-content {
+    top: 10;
+    padding-top: 65px;
+}
+
+.navbar {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    top: 0;
+    bottom: auto;
+    transition: 0.2s ease-in;
+    z-index: 100;
+}
+
+.nav-header {
+    height: 55px;
+}
+/* .navbar-bg {
+
+    opacity: 0.98;
+} */
+
+.footer-bg {
+    background-color: #eae7e4;
+}
+
+.footer {
+    width: 100%;
+    min-height: 100px;
+}
+
+/* .footer-container {
+    min-height: 100px;
+} */
+
+.knLogo {
+    border-style: solid;
+    border-color: #9070D5;
+    border-width: 2px;
+}
+
+.kn-footer-width {
+    min-width: 200px;
+}
+
+
+.cover {
+    object-fit: cover;
+}
+
+.banner-caption-top {
+    margin-top: 50px;
+    top: 0;
+    bottom: auto;
+}
+
+.banner-caption-two {
+    position: absolute;
+    right: 60px;
+    bottom: 40px;
+    z-index: 98;
+}
+
+.nav-link {
+    color: #2F3747;
+    border-bottom: 4px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 4px solid #2F3747;
+    transition: 0.2s ease-in;
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 110px;
+    right: 15px;
+    z-index: 98;
+    padding: 21px;
+    /* transition: 0.5s ease-in; */
+}
+
+/* .banner-link {
+    border-bottom: 4px solid transparent;
+}
+
+.banner-link:hover {
+    border-bottom: 4px solid white;
+    font-weight: 400;
+    transition: 0.2s ease-in;
+} */
+
+.banner-transition {
+    transition: 1s;
+}
+
+.prop-highlights {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.hero-container {
+    max-width: 1000px;
+}
