@@ -31,6 +31,10 @@ html {
     padding-top: 65px;
 }
 
+.section {
+    max-width: 1200px;
+}
+
 .navbar {
     font-family: "Lato", sans-serif;
     font-weight: 600;
@@ -42,9 +46,17 @@ html {
     z-index: 100;
 }
 
-.nav-header {
-    height: 60px;
+.brick-light-bg {
+    background-color: #FFEFE7;
 }
+
+.lime-bg {
+    background-color: #E6FFD7;
+}
+
+/* .nav-header {
+    height: 60px;
+} */
 /* .navbar-bg {
 
     opacity: 0.98;
