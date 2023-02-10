@@ -4,7 +4,7 @@ import carIcon from "../assets/Icons/car-icon.svg";
 import bricksIcon from "../assets/Icons/bricks-icon.svg";
 import sunIcon from "../assets/Icons/sun-icon.svg";
 
-function PropertyHighlightsCards() {
+function PropertyCards() {
     const lineBreak = "";
 
     const highlightsData = [
@@ -59,15 +59,10 @@ function PropertyHighlightsCards() {
     });
 
     return (
-        <div className="col my-2">
-            {/* <div className="row my-3">
-                <h5 className="text-capitalize">
-                    Property Highlights
-                </h5>
-            </div> */}
-            <div className="row my-3 justify-content-center">{renderCards}</div>
+        <div className="col">
+            <div className="row justify-content-center">{renderCards}</div>
         </div>
     );
 }
 
-export default PropertyHighlightsCards;
+export default PropertyCards;
