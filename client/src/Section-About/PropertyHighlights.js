@@ -8,16 +8,18 @@ function PropertyHighlights() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001732/Southwells/assets/300_S_Wells_ave_MAP-med_fhhwu5.png";
 
     return (
-        <div className="col mx-auto list-width">
-            <div className="">
-                <img
-                    className="rounded border border-secondary"
-                    src={mapURL}
-                    alt="map location"
-                    width="300px"
-                />
+        <div className="col-6 list-width">
+            <div className="row my-3">
+                <div className="col">
+                    <img
+                        className="rounded-4 highlight-image-width"
+                        src={mapURL}
+                        alt="map location"
+
+                    />
+                </div>
             </div>
-            <div className="row">
+            <div className="row my-3">
                 <ul className="list-group rounded">
                     <li className={liClassName}>
                         <div className="row justify-content-start">

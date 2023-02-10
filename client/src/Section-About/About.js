@@ -22,7 +22,7 @@ function About() {
                     area.
                 </p>
             </div>
-            <div className="row my-5">
+            <div className="row justify-content-center my-5">
                 <PropertyHighlights />
                 <PropertyMap />
             </div>
