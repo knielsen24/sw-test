@@ -1,17 +1,17 @@
 import React from "react";
 
-function PropertyDetails
-() {
-    const liClassName =
-        "bg-transparent list-group-item border border-0 ";
+function PropertyDetails() {
+
+    const liClassName = "bg-transparent list-group-item border border-0 ";
     const floorPlanURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001731/Southwells/assets/300_S_Wells_ave_Building_Layout-med_iysjzq.png";
+
     return (
         <div className="row align-items-center">
             <div className="col ">
-                <div className="row mb-5">
-                    <h4 className="fw-bold p-1 m-1">Property Details</h4>
-                </div>
+                
+
+
                 <ul className="list-group rounded">
                     <li className={liClassName}>
                         <div className="row justify-content-start">
@@ -60,5 +60,4 @@ function PropertyDetails
     );
 }
 
-export default PropertyDetails
-;
+export default PropertyDetails;
