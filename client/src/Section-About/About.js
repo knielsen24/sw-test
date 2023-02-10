@@ -10,7 +10,7 @@ function About() {
 
     return (
         <div className="col section mx-auto my-2 justify-content-center p-4">
-            <h4 className="my-3 p-1 rounded text-capitalize ">
+            <h4 className="my-2 pb-4 text-capitalize border-bottom border-secondary ">
                 Property Highlights
             </h4>
             <div className="row">

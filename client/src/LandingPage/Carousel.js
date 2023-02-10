@@ -33,15 +33,16 @@ function Carousel() {
                             alt="property-front"
                         />
                         <div className={captionClassOne}>
-                            <h2 className="text-capitalize banner-transition">
-                                300 South Wells Ave.
+                            <h2 className="text-capitalize banner-transition text-dark text-center">
+                                Downtown Reno
                             </h2>
-                            <h5 className="m-0 text-capitalize banner-transition">
-                                Downtown Reno Commercial Property
-                            </h5>
+                            <h2 className="text-capitalize banner-transition text-dark text-end">
+                                Commercial Property
+                            </h2>
+                            {/* <h5 className="m-0 text-capitalize banner-transition text-dark"> at 300 South Wells Ave</h5> */}
                         </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval="5000">
+                    <div className="carousel-item" data-bs-interval="20000">
                         <img
                             src={landingTwoURL}
                             className="d-block w-100 carousel-cover"
