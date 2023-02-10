@@ -12,7 +12,8 @@ function Carousel() {
 
     const captionClassOne =
         "carousel-caption banner-caption-top p-2 mx-0 d-none d-sm-block rounded text-white ";
-    const captionClassTwo = "carousel-caption banner-caption-two d-none d-md-block";
+    const captionClassTwo =
+        "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
         <div className="col my-1 my-5 p-0 carousel-column hero-container">
@@ -24,7 +25,7 @@ function Carousel() {
                 <div className="carousel-inner rounded">
                     <div
                         className="carousel-item active"
-                        data-bs-interval="5000"
+                        data-bs-interval="20000"
                     >
                         <img
                             src={landingOneURL}
@@ -36,7 +37,7 @@ function Carousel() {
                                 300 South Wells Ave.
                             </h2>
                             <h5 className="m-0 text-capitalize banner-transition">
-                                Mixed Use Retro Industrial building
+                                Downtown Reno Commercial Property
                             </h5>
                         </div>
                     </div>
