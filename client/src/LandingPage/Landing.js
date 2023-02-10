@@ -60,7 +60,7 @@ function Landing() {
                 <PropertyDetails />
             </div>
             <div
-                className=" row p-0 w-auto justify-content-center"
+                className=" row p-0 w-auto justify-content-center mint-bg"
                 id="courtyard"
             >
                 <Courtyard />

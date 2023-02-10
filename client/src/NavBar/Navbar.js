@@ -54,7 +54,7 @@ function Navbar() {
                         <ul className="navbar-nav ms-auto align-items-center ">
                             <li className="nav-item m-0 ">
                                 <a
-                                    className="nav-link pb-0 text-uppercase "
+                                    className="nav-link pb-0 text-capitalize "
                                     aria-current="page"
                                     href="#about"
                                 >
@@ -63,23 +63,24 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link  pb-0 text-uppercase m-0"
+                                    className="nav-link pb-0 text-capitalize"
+                                    href="#courtyard"
+                                >
+                                    The Courtyard
+                                </a>
+                            </li>
+                            <li className="nav-item m-0">
+                                <a
+                                    className="nav-link  pb-0 text-capitalize m-0"
                                     href="#for-lease"
                                 >
                                     For Lease
                                 </a>
                             </li>
+
                             <li className="nav-item m-0">
                                 <a
-                                    className="nav-link pb-0 text-uppercase"
-                                    href="#courtyard"
-                                >
-                                    Courtyard Venue
-                                </a>
-                            </li>
-                            <li className="nav-item m-0">
-                                <a
-                                    className="nav-link pb-0 text-uppercase"
+                                    className="nav-link pb-0 text-capitalize"
                                     href="#contact"
                                 >
                                     Contact
@@ -87,7 +88,7 @@ function Navbar() {
                             </li>
                             <li className="nav-item m-0 ">
                                 <a
-                                    className="nav-link pb-0 text-uppercase"
+                                    className="nav-link pb-0 text-capitalize"
                                     href="#partners"
                                 >
                                     Patrons

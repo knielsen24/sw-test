@@ -6,30 +6,28 @@ function Courtyard() {
 
     return (
         <div className="col section mx-auto mt-2 justify-content-center p-1">
-            <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
-                Courtyard Venue
-            </h4>
+            <div className="my-4">
+                <h4 className="p-2 fw-bold">The Courtyard</h4>
+                <p>An intimate event venue perfect for your party</p>
+            </div>
+
             <div className="row">
                 <div className="col hero-container mx-auto">
-                    <div className="card ">
+                    <div className="rounded-4">
                         <img
                             src={courtyardOne}
-                            className="card-img-top "
+                            className="rounded d-block w-100 carousel-cover"
                             alt="courtyard"
                         />
-                        <div className="card-body ">
-                            {/* <h5 className="card-title">
-                                An intimate event venue perfect for your party
-                            </h5> */}
-                            <p className="card-text">
-                                An intimate event venue perfect for your party
-                            </p>
-                            <p className="card-text"></p>
-                            <a href="#contact" className="btn btn-sm btn-primary shadow-sm text-uppercase">
-                                Contact Info
-                            </a>
-                            <p className="">More info coming soon</p>
-                        </div>
+                    </div>
+                    <div className=" mint-bg ">
+                        <a
+                            href="#contact"
+                            className="btn btn-sm btn-primary shadow-sm text-uppercase"
+                        >
+                            Contact Info
+                        </a>
+                        <p className="">More info coming soon</p>
                     </div>
                 </div>
             </div>
