@@ -8,13 +8,15 @@ function PropertyMap() {
     const landmarksURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676007462/Southwells/assets/300_S_Wells_ave_MAP_landmarks-med_uq0sji.png";
 
-
     return (
         <div className="row  align-items-center p-5 ">
-            <h4 className="p-2 my-4 fw-bold">
-                Strategically located in a dense and mature residential and
-                commercial area.
-            </h4>
+            <div className="my-4">
+                <h4 className="p-2 fw-bold">
+                    Strategically located in a dense and established residential
+                    / commercial area.
+                </h4>
+                <p>Amenities within 3-miles of Radius</p>
+            </div>
 
             <div className="col list-width">
                 <div className="row my-3">

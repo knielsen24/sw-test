@@ -1,16 +1,16 @@
 import React from "react";
 
 function PropertyDetails() {
-
     const liClassName = "bg-transparent list-group-item border border-0 ";
     const floorPlanURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001731/Southwells/assets/300_S_Wells_ave_Building_Layout-med_iysjzq.png";
 
     return (
-        <div className="row align-items-center">
+        <div className="row my-5">
             <div className="col ">
-                
-
+                <div className="mb-4">
+                    <h4 className="p-2 fw-bold">Property Details</h4>
+                </div>
 
                 <ul className="list-group rounded">
                     <li className={liClassName}>

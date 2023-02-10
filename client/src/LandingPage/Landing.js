@@ -56,6 +56,7 @@ function Landing() {
                 id="highlights"
             >
                 <PropertyMap />
+                <hr className="hr-line-width"/>
                 <PropertyDetails />
             </div>
             <div
