@@ -5,13 +5,13 @@ import bricksIcon from "../assets/Icons/bricks-icon.svg";
 import sunIcon from "../assets/Icons/sun-icon.svg";
 
 function PropertyHighlightsCards() {
-    const pTagClass = "mt-3 mb-0";
+    const lineBreak = ""
 
     const highlightsData = [
         {
             image: bricksIcon,
             alt: "brick icon",
-            text: "Recently redeveloped multi-tenant mixed-use building",
+            text: `redeveloped ${lineBreak} multi-tenant mixed-use commercial property`,
         },
         {
             image: hospitalIcon,
@@ -34,6 +34,8 @@ function PropertyHighlightsCards() {
             text: "Easy access to I-80 via S. Wells Ave. or I-580 via Mill St",
         },
     ];
+
+    const pTagClass = "text-capitalize mt-3 mb-0";
 
     const renderCards = highlightsData.map((card) => {
         return (
