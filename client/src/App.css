@@ -3,6 +3,14 @@
 body {
     position: relative;
     overflow-y: auto;
+    overflow-x: hidden;
+    top: 0;
+    width: 100%;
+    min-width: 280px;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin: auto;
+    bottom:0;
 }
 
 html {
@@ -12,15 +20,6 @@ html {
     scroll-padding-top: 55px;
 }
 
-#app-container {
-    top: 0;
-    width: 100%;
-    min-width: 280px;
-    justify-content: center;
-    padding-bottom: 0px;
-    margin: auto;
-    bottom:0;
-}
 
 .App {
     text-align: center;

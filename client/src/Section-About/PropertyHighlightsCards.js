@@ -37,9 +37,9 @@ function PropertyHighlightsCards() {
 
     const renderCards = highlightsData.map((card) => {
         return (
-            <div className="col p-3 prop-highlights bg-white rounded-4 shadow">
+            <div className="col m-3 p-3 prop-highlights bg-white rounded-4 shadow">
                 <img
-                    classname="m-5"
+                    classname="m-5 p-2"
                     src={card.image}
                     width="30px"
                     alt={card.alt}
