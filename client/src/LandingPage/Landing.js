@@ -6,7 +6,7 @@ import Contact from "../Section-Contact/Contact";
 import Courtyard from "../Section-Courtyard/Courtyard";
 import ForLease from "./ForLease";
 import chevronUp from "../assets/Icons/chevron-up.svg";
-import PropertyHighlights from "../Section-About/PropertyHighlights";
+import PropertyDetails from "../Section-About/PropertyDetails";
 import PropertyMap from "../Section-About/PropertyMap";
 
 function Landing() {
@@ -45,13 +45,19 @@ function Landing() {
             <div className="row p-0 w-auto justify-content-center">
                 <Carousel />
             </div>
-            <div className="row p-1 my-5 w-auto justify-content-center mint-bg " id="about">
+            <div
+                className="row p-4 mt-5 mb-0 w-auto justify-content-center mint-bg "
+                id="about"
+            >
                 <About />
             </div>
-            {/* <div className="row p-1 my-5 w-auto justify-content-center  " id="highlights">
-                <PropertyHighlights />
+            <div
+                className="row p-2 mt-0 w-auto justify-content-center bg-white "
+                id="highlights"
+            >
                 <PropertyMap />
-            </div> */}
+                <PropertyDetails />
+            </div>
             <div
                 className=" row p-0 w-auto justify-content-center"
                 id="courtyard"

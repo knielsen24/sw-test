@@ -1,19 +1,23 @@
 import React from "react";
 
-function PropertyHighlights() {
+function PropertyDetails
+() {
     const liClassName =
-        "bg-transparent list-group-item border border-0 text-capitalize";
+        "bg-transparent list-group-item border border-0 ";
     const floorPlanURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001731/Southwells/assets/300_S_Wells_ave_Building_Layout-med_iysjzq.png";
     return (
         <div className="row align-items-center">
             <div className="col ">
+                <div className="row mb-5">
+                    <h4 className="fw-bold p-1 m-1">Property Details</h4>
+                </div>
                 <ul className="list-group rounded">
                     <li className={liClassName}>
                         <div className="row justify-content-start">
                             <div className="col fw-bold text-end">40,852</div>
                             <div className="col ps-0 me-5 text-start">
-                                sq ft on 2.30 Acres
+                                Square Feet on 2.30 Acres
                             </div>
                         </div>
                     </li>
@@ -28,10 +32,10 @@ function PropertyHighlights() {
                     <li className={liClassName}>
                         <div className="row justify-content-start">
                             <div className="col fw-bold text-end">
-                                +/- 249,817
+                                ~ 249,817
                             </div>
                             <div className="col ps-0 me-5 text-start">
-                                residents serviced
+                                Residents Serviced
                             </div>
                         </div>
                     </li>
@@ -39,7 +43,7 @@ function PropertyHighlights() {
                         <div className="row justify-content-start">
                             <div className="col fw-bold text-end">$109,381</div>
                             <div className="col ps-0 me-5 text-start">
-                                average household income within 5-mile radius
+                                Average Household Income within 5-Mile Radius
                             </div>
                         </div>
                     </li>
@@ -56,4 +60,5 @@ function PropertyHighlights() {
     );
 }
 
-export default PropertyHighlights;
+export default PropertyDetails
+;

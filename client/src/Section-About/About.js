@@ -1,6 +1,6 @@
 import PropertyCards from "./PropertyCards";
 import PropertyHighlights from "./PropertyMap";
-import PropertyMap from "./PropertyHighlights";
+import PropertyMap from "./PropertyDetails";
 
 function About() {
     // const creListingLink =
@@ -9,14 +9,15 @@ function About() {
 
     return (
         <div className="col section mx-auto my-2 justify-content-center p-4">
-            <div className="row ">
-                <PropertyCards />
+            <div className="row">
+                {" "}
+                <h4 className="fw-bold text-capitalize mb-4">
+                    Property highlights
+                </h4>
             </div>
 
-            <PropertyHighlights />
-
-            <div className="row">
-                <PropertyMap />
+            <div className="row ">
+                <PropertyCards />
             </div>
         </div>
     );
