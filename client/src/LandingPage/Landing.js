@@ -6,6 +6,8 @@ import Contact from "../Section-Contact/Contact";
 import Courtyard from "../Section-Courtyard/Courtyard";
 import ForLease from "./ForLease";
 import chevronUp from "../assets/Icons/chevron-up.svg";
+import PropertyHighlights from "../Section-About/PropertyHighlights";
+import PropertyMap from "../Section-About/PropertyMap";
 
 function Landing() {
     const [toTopButton, setToTopButton] = useState(false);
@@ -46,7 +48,10 @@ function Landing() {
             <div className="row p-1 my-5 w-auto justify-content-center mint-bg " id="about">
                 <About />
             </div>
-
+            {/* <div className="row p-1 my-5 w-auto justify-content-center  " id="highlights">
+                <PropertyHighlights />
+                <PropertyMap />
+            </div> */}
             <div
                 className=" row p-0 w-auto justify-content-center"
                 id="courtyard"

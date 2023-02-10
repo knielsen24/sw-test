@@ -1,15 +1,57 @@
 import React from "react";
 
 function PropertyMap() {
-    const floorPlanURL =
-    "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001731/Southwells/assets/300_S_Wells_ave_Building_Layout-med_iysjzq.png";
+    const googleMaps = "https://goo.gl/maps/UgPqfKpSQzDPGErZA";
+    const mapURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001732/Southwells/assets/300_S_Wells_ave_MAP-med_fhhwu5.png";
+
+    const liClassName =
+        "bg-transparent list-group-item border border-0 text-capitalize";
+
     return (
-        <div className="col-6 mx-auto list-width">
-            <img
-                className="rounded-4 highlight-image-width"
-                src={floorPlanURL}
-                alt="map location"
-            />
+        <div className="row border-top border-dark align-items-center mt-5">
+            <div className="col p-5 list-width">
+                <div className="row my-3">
+                    <div className="col">
+                        <img
+                            className="rounded-4 highlight-image-width"
+                            src={mapURL}
+                            alt="map location"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div className="col ">
+                <div className="row">
+                    <p className="p-2 my-4 fw-bold">
+                        300 South Wells Ave. is strategically located in a dense
+                        and mature residential and commercial area.
+                    </p>
+                </div>
+                <div className="row">
+                    <ul className="list-group rounded">
+                        <li className={liClassName}>
+                            +/- 249,817 residents serviced
+                        </li>
+                        <li className={liClassName}>
+                            $109,381 average household income within 5-mile
+                            radius
+                        </li>
+                    </ul>
+                </div>
+                <div className="row mt-4 justify-content-center">
+                    <div className="col">
+                        <a
+                            className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
+                            target="_blank"
+                            href={googleMaps}
+                            rel="noreferrer"
+                        >
+                            view on Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
