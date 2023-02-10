@@ -1,5 +1,6 @@
 import PropertyCards from "./PropertyCards";
 import PropertyHighlights from "./PropertyHighlights";
+import PropertyMap from "./PropertyMap";
 
 function About() {
     // const creListingLink =
@@ -11,9 +12,9 @@ function About() {
 
     return (
         <div className="col section mx-auto my-2 justify-content-center p-4">
-            <h4 className="my-2 pb-3 text-capitalize border-bottom border-secondary ">
-                Property Highlights
-            </h4>
+            <div className="row ">
+                <PropertyCards />
+            </div>
             <div className="row">
                 <p className="p-2 my-4">
                     300 South Wells Ave. consists of two buildings strategically
@@ -21,15 +22,11 @@ function About() {
                     area.
                 </p>
             </div>
-            <div className="row ">
-                <PropertyCards />
-            </div>
             <div className="row my-5">
                 <PropertyHighlights />
-                
+                <PropertyMap />
             </div>
-
-            <div className="row justify-content-center">
+            <div className="row mt-4 justify-content-center">
                 <div className="col">
                     <a
                         className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
