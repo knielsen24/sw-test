@@ -4,7 +4,7 @@ import knLogo from "../assets/Logos/Logo KN purple.png";
 function Footer() {
     const kevinNielsenURL = "http://kevin-nielsen.webflow.io/";
     return (
-        <div className="footer d-flex mt-auto align-items-center border-top border-1 bg-light text-dark bg-gradient ">
+        <div className="footer d-flex mt-auto align-items-center border-top border-1 mint-bg text-dark bg-gradient ">
             <div className="container text-center py-2">
                 <div className="row gap-4 align-items-center justify-content-between">
                     <div className="col pb-1 mx-3 my-auto">

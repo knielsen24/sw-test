@@ -3,6 +3,7 @@ import hospitalIcon from "../assets/Icons/hospital-icon.svg";
 import carIcon from "../assets/Icons/car-icon.svg";
 import bricksIcon from "../assets/Icons/bricks-icon.svg";
 import sunIcon from "../assets/Icons/sun-icon.svg";
+import PropertyHighlightsCards from "./PropertyHighlightsCards";
 
 function About() {
     // const creListingLink =
@@ -13,9 +14,7 @@ function About() {
 
     return (
         <div className="col section mx-auto my-2 justify-content-center p-4">
-            <h4 className="my-3 p-1 rounded text-uppercase ">
-                About
-            </h4>
+            <h4 className="my-3 p-1 rounded text-uppercase ">About</h4>
 
             <div className="row">
                 <p className="mt-2">
@@ -27,59 +26,18 @@ function About() {
                     within a 5-mile radius.
                 </p>
             </div>
-
-            <div className="col mt-2">
-                <div className="row">
-                    <h5 className="text-decoration-underline">
-                        Property Highlights
-                    </h5>
-                </div>
-                <div className="row mt-3 justify-content-center">
-                    <div className="col p-3 prop-highlights bg-white rounded-4 shadow">
-                        <img classname="m-5" src={bricksIcon} width="30px" alt="brick icon" />
-                        <p className={pTagClass}>
-                            Recently redeveloped multi-tenant mixed-use building
-                        </p>
-                    </div>
-                    <div className="col prop-highlights">
-                        <img classname="m-5" src={hospitalIcon} width="30px" alt="hospital icon" />
-                        <p className={pTagClass}>
-                            Close proximity to Renown Regional Medical Center
-                            and Downtown Reno
-                        </p>
-                    </div>
-                    <div className="col prop-highlights">
-                        <img classname="m-5" src={toolsIcon} width="30px" alt="tools icon" />
-                        <p className={pTagClass}>
-                            Zoned for retail, office, and medical use
-                        </p>
-                    </div>
-                    <div className="col prop-highlights">
-                        <img classname="m-5" src={sunIcon} width="30px" alt="sun icon" />
-                        <p className={pTagClass}>
-                            Common area outdoor courtyard with attractive
-                            amenities
-                        </p>
-                    </div>
-                    <div className="col prop-highlights">
-                        <img classname="m-5" src={carIcon} width="30px" alt="car icon" />
-                        <p className={pTagClass}>
-                            Easy access to I-80 via S. Wells Ave. or I-580 via
-                            Mill St
-                        </p>
-                    </div>
-                </div>
-                <div className="row mb-4 justify-content-center">
-                    <div className="col">
-                        <a
-                            className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
-                            target="_blank"
-                            href={googleMaps}
-                            rel="noreferrer"
-                        >
-                            view map location
-                        </a>
-                    </div>
+            <PropertyHighlightsCards />
+            
+            <div className="row mt-5 justify-content-center">
+                <div className="col">
+                    <a
+                        className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
+                        target="_blank"
+                        href={googleMaps}
+                        rel="noreferrer"
+                    >
+                        view map location
+                    </a>
                 </div>
             </div>
         </div>

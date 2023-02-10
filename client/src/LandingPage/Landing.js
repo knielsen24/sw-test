@@ -22,7 +22,7 @@ function Landing() {
     if (toTopButton) {
         renderButton = (
             <a
-                className="bg-light border border-secondary border-opacity-50 rounded-4 p-1"
+                className="bg-white border border-secondary bg-opacity-75 rounded-4 p-2"
                 id="toTopBtn"
                 href="#banners-carousel"
             >

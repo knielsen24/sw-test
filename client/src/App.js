@@ -6,7 +6,7 @@ import Navbar from "./NavBar/Navbar";
 function App() {
     return (
         <body
-            className="container-fluid m-0 p-0"
+            className="container-fluid mx-auto p-0"
             data-bs-spy="scroll"
             data-bs-target="#navID"
             data-offset="100"
