@@ -1,8 +1,3 @@
-import toolsIcon from "../assets/Icons/tools-icon.svg";
-import hospitalIcon from "../assets/Icons/hospital-icon.svg";
-import carIcon from "../assets/Icons/car-icon.svg";
-import bricksIcon from "../assets/Icons/bricks-icon.svg";
-import sunIcon from "../assets/Icons/sun-icon.svg";
 import PropertyHighlightsCards from "./PropertyHighlightsCards";
 
 function About() {
@@ -10,12 +5,9 @@ function About() {
     //     "https://looplink.logiccre.com/Listing/300-328-S-Wells-Ave-Reno-NV/20673499/";
     const googleMaps = "https://goo.gl/maps/UgPqfKpSQzDPGErZA";
 
-    const pTagClass = "mt-3 mb-0";
-
     return (
         <div className="col section mx-auto my-2 justify-content-center p-4">
             <h4 className="my-3 p-1 rounded text-uppercase ">About</h4>
-
             <div className="row">
                 <p className="mt-2">
                     300 South Wells Ave. consists of two buildings totaling
@@ -27,7 +19,7 @@ function About() {
                 </p>
             </div>
             <PropertyHighlightsCards />
-            
+
             <div className="row mt-5 justify-content-center">
                 <div className="col">
                     <a

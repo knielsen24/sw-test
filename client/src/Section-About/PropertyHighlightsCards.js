@@ -1,52 +1,59 @@
-import toolsIcon from "../assets/Icons/tools-icon.svg";
+import shopIcon from "../assets/Icons/shop-icon.svg";
 import hospitalIcon from "../assets/Icons/hospital-icon.svg";
 import carIcon from "../assets/Icons/car-icon.svg";
 import bricksIcon from "../assets/Icons/bricks-icon.svg";
 import sunIcon from "../assets/Icons/sun-icon.svg";
 
 function PropertyHighlightsCards() {
-    const lineBreak = ""
+    const lineBreak = "";
 
     const highlightsData = [
         {
             image: bricksIcon,
             alt: "brick icon",
-            text: `redeveloped ${lineBreak} multi-tenant mixed-use commercial property`,
+            header: "redeveloped",
+            text: `multi-tenant mixed-use commercial property`,
         },
         {
             image: hospitalIcon,
             alt: "hospital icon",
-            text: "Close proximity to Renown Regional Medical Center & Downtown Reno",
+            header: "Close proximity",
+            text: "to Renown Regional Medical Center & Downtown Reno",
         },
         {
-            image: toolsIcon,
+            image: shopIcon,
             alt: "tools icon",
-            text: "Zoned for retail, office, and medical use",
+            header: "Zoned for ",
+            text: "retail, office, and medical use",
         },
         {
             image: sunIcon,
             alt: "sun icon",
+            header: "outdoor courtyard ",
             text: "Common area outdoor courtyard with attractive amenities",
         },
         {
             image: carIcon,
             alt: "car icon",
-            text: "Easy access to I-80 via S. Wells Ave. or I-580 via Mill St",
+            header: "Easy access ",
+            text: " to I-80 via S. Wells Ave. or I-580 via Mill St",
         },
     ];
 
-    const pTagClass = "text-capitalize mt-3 mb-0";
 
     const renderCards = highlightsData.map((card) => {
         return (
             <div className="col m-3 p-3 prop-highlights bg-white rounded-4 shadow">
-                <img
-                    classname="m-5 p-2"
-                    src={card.image}
-                    width="30px"
-                    alt={card.alt}
-                />
-                <p className={pTagClass}>{card.text}</p>
+                <div className="m-3">
+                    <img
+                        classname="p-2"
+                        src={card.image}
+                        width="30px"
+                        alt={card.alt}
+                    />
+                </div>
+                <p className="text-capitalize fw-bold my-2">{card.header}</p>
+                <p className="text-capitalize mb-0">{card.text}</p>
             </div>
         );
     });
