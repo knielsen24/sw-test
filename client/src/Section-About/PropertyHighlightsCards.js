@@ -23,8 +23,8 @@ function PropertyHighlightsCards() {
         {
             image: shopIcon,
             alt: "tools icon",
-            header: "Zoned for ",
-            text: "retail, office, and medical use",
+            header: "Zoned for use",
+            text: "retail, office, and medical",
         },
         {
             image: sunIcon,
@@ -36,7 +36,7 @@ function PropertyHighlightsCards() {
             image: carIcon,
             alt: "car icon",
             header: "Easy access ",
-            text: " to I-80 via S. Wells Ave. or I-580 via Mill St",
+            text: "to I-80 via S. Wells Ave. or I-580 via Mill St",
         },
     ];
 
@@ -59,12 +59,12 @@ function PropertyHighlightsCards() {
     });
 
     return (
-        <div className="col mt-2">
-            <div className="row my-3">
-                <h5 className="text-decoration-underline">
+        <div className="col my-2">
+            {/* <div className="row my-3">
+                <h5 className="text-capitalize">
                     Property Highlights
                 </h5>
-            </div>
+            </div> */}
             <div className="row my-3 justify-content-center">{renderCards}</div>
         </div>
     );

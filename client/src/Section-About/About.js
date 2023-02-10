@@ -7,9 +7,9 @@ function About() {
 
     return (
         <div className="col section mx-auto my-2 justify-content-center p-4">
-            <h4 className="my-3 p-1 rounded text-uppercase ">About</h4>
+            <h4 className="my-3 p-1 rounded text-capitalize ">Downtown Reno Commercial Property</h4>
             <div className="row">
-                <p className="mt-2">
+                <p className="my-4">
                     300 South Wells Ave. consists of two buildings totaling
                     40,852 SF on 2.30 AC of land with 144 Parking Spaces. The
                     property is strategically located in a dense and mature
