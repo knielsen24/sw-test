@@ -5,8 +5,6 @@ import bricksIcon from "../assets/Icons/bricks-icon.svg";
 import sunIcon from "../assets/Icons/sun-icon.svg";
 
 function PropertyCards() {
-    const lineBreak = "";
-
     const highlightsData = [
         {
             image: bricksIcon,
@@ -39,7 +37,6 @@ function PropertyCards() {
             text: "to I-80 via S. Wells Ave. or I-580 via Mill St",
         },
     ];
-
 
     const renderCards = highlightsData.map((card) => {
         return (
