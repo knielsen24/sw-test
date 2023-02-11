@@ -63,13 +63,10 @@ html {
 }
 
 
-/* .nav-header {
-    height: 60px;
-} */
-/* .navbar-bg {
-
-    opacity: 0.98;
-} */
+.nav-bg {
+    background-color: white;
+    opacity: .98;
+}
 
 .footer-bg {
     background-color: #eae7e4;
@@ -159,8 +156,8 @@ html {
 }
 
 .hero-container {
-    object-fit: cover;
-    /* max-width: 1400px; */
+    /* object-fit: cover; */
+    max-width: 1200px;
 }
 
 .hr-line-width {

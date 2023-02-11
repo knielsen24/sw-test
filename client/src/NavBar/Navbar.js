@@ -18,16 +18,9 @@ function Navbar() {
     const navATagClass = "nav-link pb-0 text-uppercase";
 
     return (
-        <div
-            className="nav-header m-0 p-0 border-bottom shadow-sm bg-white fixed-top "
-            // {
-            //     changeBackground
-            //         ? "navbar navbar-bg bg-light m-0 p-0 "
-            //         : "navbar m-0 p-0 "
-            // }
-        >
+        <div className="nav-header m-0 p-0 border-bottom shadow-sm nav-bg fixed-top ">
             <nav
-                className="container navbar navbar-expand-lg bg-white rounded "
+                className="container navbar navbar-expand-lg rounded "
                 id="navID"
             >
                 <div className="container-fluid my-auto">
@@ -66,35 +59,23 @@ function Navbar() {
                                 </a>
                             </li>
                             <li className={navLinksClass}>
-                                <a
-                                    className={navATagClass}
-                                    href="#courtyard"
-                                >
+                                <a className={navATagClass} href="#courtyard">
                                     The Courtyard
                                 </a>
                             </li>
                             <li className={navLinksClass}>
-                                <a
-                                    className={navATagClass}
-                                    href="#for-lease"
-                                >
+                                <a className={navATagClass} href="#for-lease">
                                     For Lease
                                 </a>
                             </li>
 
                             <li className={navLinksClass}>
-                                <a
-                                    className={navATagClass}
-                                    href="#contact"
-                                >
+                                <a className={navATagClass} href="#contact">
                                     Contact
                                 </a>
                             </li>
                             <li className={navLinksClass}>
-                                <a
-                                    className={navATagClass}
-                                    href="#partners"
-                                >
+                                <a className={navATagClass} href="#partners">
                                     Patrons
                                 </a>
                             </li>
