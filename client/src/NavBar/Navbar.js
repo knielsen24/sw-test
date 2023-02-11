@@ -1,19 +1,6 @@
-// import { useState } from "react";
 import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 
 function Navbar() {
-    // const [changeBackground, setChangeBackground] = useState(false);
-
-    // const changeColor = () => {
-    //     if (window.scrollY >= 10) {
-    //         setChangeBackground(true);
-    //     } else {
-    //         setChangeBackground(false);
-    //     }
-    // };
-
-    // window.addEventListener("scroll", changeColor);
-
     const navLinksClass = "nav-item m-1";
     const navATagClass = "nav-link pb-0 text-uppercase";
 
@@ -41,7 +28,6 @@ function Navbar() {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                        {/* <img src={listIcon} width="10px" ></img> */}
                         <span className="navbar-toggler-icon "></span>
                     </button>
                     <div
