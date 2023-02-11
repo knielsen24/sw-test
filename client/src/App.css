@@ -159,7 +159,8 @@ html {
 }
 
 .hero-container {
-    max-width: 1000px;
+    object-fit: cover;
+    /* max-width: 1400px; */
 }
 
 .hr-line-width {

@@ -9,7 +9,7 @@ function PropertyDetails() {
         <div className="row my-5">
             <div className="col ">
                 <div className="mb-4">
-                    <h4 className="p-2 fw-bold">Property Details</h4>
+                    <h4 className="p-2 fw-bold text-uppercase">Property Details</h4>
                 </div>
 
                 <ul className="list-group rounded">

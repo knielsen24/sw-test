@@ -5,7 +5,7 @@ function About() {
         <div className="col section mx-auto my-2 justify-content-center p-4">
             <div className="row">
                 {" "}
-                <h4 className="fw-bold text-capitalize mb-4">
+                <h4 className="fw-bold text-uppercase mb-4">
                     Property highlights
                 </h4>
             </div>

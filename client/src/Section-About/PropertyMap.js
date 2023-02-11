@@ -11,7 +11,7 @@ function PropertyMap() {
     return (
         <div className="row  align-items-center p-5 ">
             <div className="my-4">
-                <h4 className="p-2 fw-bold">
+                <h4 className="p-2 fw-bold text-uppercase">
                     Strategically located in a dense and established residential
                     / commercial area.
                 </h4>
