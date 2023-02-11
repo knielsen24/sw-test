@@ -5,11 +5,14 @@ function PropertyMap() {
     const mapURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001732/Southwells/assets/300_S_Wells_ave_MAP-med_fhhwu5.png";
 
-    const landmarksURL =
-        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676007462/Southwells/assets/300_S_Wells_ave_MAP_landmarks-med_uq0sji.png";
+    const landmarksListURL =
+        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142310/Southwells/assets/300_S_Wells_ave_landmarks-list_th3wbe.png";
+
+    // const landmarksLegendURL =
+    //     "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142312/Southwells/assets/300_S_Wells_ave_landmarks-legend_nctyrp.png";
 
     return (
-        <div className="row align-items-start justify-content-evenly p-5 ">
+        <div className="row mx-auto my-4 align-items-start justify-content-evenly  ">
             <div className="my-4">
                 <h4 className="p-2 fw-bold text-uppercase">
                     Strategically located in a dense and established residential
@@ -18,37 +21,43 @@ function PropertyMap() {
                 <p>Amenities within 3-miles of Radius</p>
             </div>
 
-            <div className="col float-end">
+            <div className="col ">
                 <div className="m-4">
                     <img
-                        className="rounded-4 border highlight-image-width"
+                        className="rounded-4 border "
                         src={mapURL}
                         alt="map location"
-                        // width="300"
+                        width="400"
                     />
                 </div>
-                <a
-                    className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
-                    target="_blank"
-                    href={googleMaps}
-                    rel="noreferrer"
-                >
-                    view on Google Maps
-                </a>
-                <div className="row my-3  "></div>
-                {/* <div className="row mt-5 ">
-                    <div className="col"></div>
-                </div> */}
+                <div className="mb-4">
+                    <a
+                        className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
+                        target="_blank"
+                        href={googleMaps}
+                        rel="noreferrer"
+                    >
+                        view on Google Maps
+                    </a>
+                </div>
             </div>
             <div className="col me-5">
                 <div className="row my-3">
-                    <div className="col">
+                    <div className="ms-5">
                         <img
                             className="rounded-4 highlight-image-height"
-                            src={landmarksURL}
-                            alt="map location"
+                            src={landmarksListURL}
+                            alt="major land marks"
                         />
                     </div>
+                    {/* <div>
+                        <img
+                            className="rounded-4 highlight-image-height"
+                            src={landmarksLegendURL}
+                            alt="map legend"
+                            width="300"
+                        />
+                    </div> */}
                 </div>
             </div>
         </div>
