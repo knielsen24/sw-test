@@ -19,12 +19,13 @@ function PropertyMap() {
             </div>
 
             <div className="col list-width">
-                <div className="row my-3">
-                    <div className="col">
+                <div className="row justify-content-center my-3">
+                    <div className="col ">
                         <img
                             className="rounded-4 highlight-image-width"
                             src={mapURL}
                             alt="map location"
+                            width="300"
                         />
                     </div>
                 </div>

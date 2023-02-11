@@ -42,7 +42,7 @@ function Landing() {
 
     return (
         <div className="container-fluid text-center main-content">
-            <div className="row p-0 w-auto justify-content-center">
+            <div className="row mt-4 p-0 w-auto justify-content-center">
                 <Carousel />
             </div>
             <div
