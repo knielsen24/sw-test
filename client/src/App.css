@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap");
 
+html,
 body {
     position: relative;
     overflow-y: auto;
@@ -10,17 +11,14 @@ body {
     min-width: 280px;
     justify-content: center;
     padding-bottom: 0px;
-    margin: auto;
-    bottom:0;
-}
-
-html {
+    margin: 0;
+    bottom: 0;
     font-family: "Lato", sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     scroll-padding-top: 55px;
+    height: 100%;
 }
-
 
 .App {
     text-align: center;
@@ -40,7 +38,7 @@ html {
 }
 
 .navbar {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -51,34 +49,31 @@ html {
 }
 
 .brick-light-bg {
-    background-color: #F3B193;
+    background-color: #f3b193;
 }
 
 .mint-bg {
-    background-color: #DFE7F2;
+    background-color: #dfe7f2;
 }
 
 .blue-bg {
-    background-color: #1F4066;
+    background-color: #1f4066;
 }
-
 
 .nav-bg {
     background-color: white;
-    opacity: .99;
+    opacity: 0.99;
 }
-
 
 .footer {
     width: 100%;
     min-height: 100px;
-    background-color: #DFE7F2;
+    background-color: #dfe7f2;
 }
-
 
 .knLogo {
     border-style: solid;
-    border-color: #9070D5;
+    border-color: #9070d5;
     border-width: 2px;
 }
 
@@ -86,10 +81,9 @@ html {
     min-width: 200px;
 }
 
-
-.cover {
+/* .cover {
     object-fit: cover;
-}
+} */
 
 .banner-caption-top {
     margin-top: 50px;
@@ -105,12 +99,12 @@ html {
 }
 
 .nav-link {
-    color: #2F3747;
+    color: #2f3747;
     border-bottom: 3px solid transparent;
 }
 
 .nav-link:hover {
-    border-bottom: 3px solid #2F3747;
+    border-bottom: 3px solid #2f3747;
     transition: 0.2s ease-in;
 }
 
@@ -123,15 +117,6 @@ html {
     /* transition: 0.5s ease-in; */
 }
 
-/* .banner-link {
-    border-bottom: 4px solid transparent;
-}
-
-.banner-link:hover {
-    border-bottom: 4px solid white;
-    font-weight: 400;
-    transition: 0.2s ease-in;
-} */
 
 .banner-transition {
     transition: 1s;
@@ -146,15 +131,16 @@ html {
     max-width: 400px;
 }
 
-
 .hero-container {
     object-fit: cover;
-
-    /* max-width: 1100px; */
+    /* background-size: cover; */
 }
 
-.hr-line-width {
+/* .carousel-container {
+    max-height: 80vh;
+} */
 
+.hr-line-width {
     max-width: 1200px;
 }
 
@@ -163,8 +149,6 @@ html {
 .map-section-col-width {
     min-width: 300px;
     max-width: 450px;
-
-
 }
 
 .highlight-image-height {

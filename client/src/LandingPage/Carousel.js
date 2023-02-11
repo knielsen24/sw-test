@@ -16,7 +16,7 @@ function Carousel() {
         "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
-        <div className="col p-0 carousel-column hero-container">
+        <div className="col p-0 hero-container">
             <div
                 id="banners-carousel"
                 className="carousel slide "
@@ -29,23 +29,19 @@ function Carousel() {
                     >
                         <img
                             src={landingOneURL}
-                            className="d-block w-100 carousel-cover"
+                            className="d-block w-100 "
                             alt="property-front"
                         />
                         <div className={captionClassOne}>
                             <h2 className="text-capitalize banner-transition text-dark text-center">
-                                Downtown Reno
+                                Downtown Reno Commercial Property
                             </h2>
-                            <h2 className="text-capitalize banner-transition text-dark text-end">
-                                Commercial Property
-                            </h2>
-                            {/* <h5 className="m-0 text-capitalize banner-transition text-dark"> at 300 South Wells Ave</h5> */}
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="20000">
                         <img
                             src={landingTwoURL}
-                            className="d-block w-100 carousel-cover"
+                            className="d-block w-100 "
                             alt="property-street"
                         />
                         <div className={captionClassTwo}>
