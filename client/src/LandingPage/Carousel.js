@@ -16,7 +16,7 @@ function Carousel() {
         "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
-        <div className="col mb-4 p-0 carousel-column hero-container">
+        <div className="col p-0 carousel-column hero-container">
             <div
                 id="banners-carousel"
                 className="carousel slide "
