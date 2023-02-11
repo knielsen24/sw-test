@@ -24,12 +24,12 @@ function Carousel() {
             >
                 <div className="carousel-inner rounded">
                     <div
-                        className="carousel-item active"
+                        className="carousel-item active bg-dark"
                         data-bs-interval="20000"
                     >
                         <img
                             src={landingOneURL}
-                            className="d-block w-100 carousel-cover"
+                            className="d-block w-100 carousel-cover "
                             alt="property-front"
                         />
                         <div className={captionClassOne}>

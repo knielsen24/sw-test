@@ -14,7 +14,8 @@ function Navbar() {
 
     // window.addEventListener("scroll", changeColor);
 
-    // const navMenuLinks = "nav-link py-1 text-uppercase";
+    const navLinksClass = "nav-item m-1";
+    const navATagClass = "nav-link pb-0 text-uppercase";
 
     return (
         <div
@@ -25,8 +26,11 @@ function Navbar() {
             //         : "navbar m-0 p-0 "
             // }
         >
-            <nav className="container navbar navbar-expand-lg bg-white rounded" id="navID">
-                <div className="container-fluid ">
+            <nav
+                className="container navbar navbar-expand-lg bg-white rounded "
+                id="navID"
+            >
+                <div className="container-fluid my-auto">
                     <a href="/">
                         <img
                             src={southWellsLogo}
@@ -52,43 +56,43 @@ function Navbar() {
                         id="navbarNavDropdown"
                     >
                         <ul className="navbar-nav ms-auto align-items-center ">
-                            <li className="nav-item m-0 ">
+                            <li className="nav-item m-0">
                                 <a
-                                    className="nav-link pb-0 text-capitalize "
+                                    className={navATagClass}
                                     aria-current="page"
                                     href="#about"
                                 >
                                     About
                                 </a>
                             </li>
-                            <li className="nav-item m-0">
+                            <li className={navLinksClass}>
                                 <a
-                                    className="nav-link pb-0 text-capitalize"
+                                    className={navATagClass}
                                     href="#courtyard"
                                 >
                                     The Courtyard
                                 </a>
                             </li>
-                            <li className="nav-item m-0">
+                            <li className={navLinksClass}>
                                 <a
-                                    className="nav-link  pb-0 text-capitalize m-0"
+                                    className={navATagClass}
                                     href="#for-lease"
                                 >
                                     For Lease
                                 </a>
                             </li>
 
-                            <li className="nav-item m-0">
+                            <li className={navLinksClass}>
                                 <a
-                                    className="nav-link pb-0 text-capitalize"
+                                    className={navATagClass}
                                     href="#contact"
                                 >
                                     Contact
                                 </a>
                             </li>
-                            <li className="nav-item m-0 ">
+                            <li className={navLinksClass}>
                                 <a
-                                    className="nav-link pb-0 text-capitalize"
+                                    className={navATagClass}
                                     href="#partners"
                                 >
                                     Patrons
