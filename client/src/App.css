@@ -151,16 +151,27 @@ html {
     max-width: 400px;
 }
 
-.highlight-image-height {
-    max-height: 500px;
-}
 
 .hero-container {
-    /* object-fit: cover; */
-    max-width: 1100px;
+    object-fit: cover;
+    
+    /* max-width: 1100px; */
 }
 
 .hr-line-width {
 
     max-width: 1200px;
+}
+
+/* Map Section */
+
+.map-section-col-width {
+    min-width: 300px;
+    max-width: 450px;
+
+
+}
+
+.highlight-image-height {
+    max-height: 500px;
 }

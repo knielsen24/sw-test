@@ -12,7 +12,7 @@ function PropertyMap() {
     //     "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142312/Southwells/assets/300_S_Wells_ave_landmarks-legend_nctyrp.png";
 
     return (
-        <div className="row mx-auto my-4 align-items-start justify-content-evenly  ">
+        <div className="row mx-auto my-4 align-items-start justify-content-center  ">
             <div className="my-4">
                 <h4 className="p-2 fw-bold text-uppercase">
                     Strategically located in a dense and established residential
@@ -21,10 +21,10 @@ function PropertyMap() {
                 <p>Amenities within 3-miles of Radius</p>
             </div>
 
-            <div className="col ">
+            <div className="col map-section-col-width">
                 <div className="m-4">
                     <img
-                        className="rounded-4 border "
+                        className="d-block w-100  "
                         src={mapURL}
                         alt="map location"
                         width="400"
@@ -41,16 +41,15 @@ function PropertyMap() {
                     </a>
                 </div>
             </div>
-            <div className="col me-5">
-                <div className="row my-3">
-                    <div className="ms-5">
-                        <img
-                            className="rounded-4 highlight-image-height"
-                            src={landmarksListURL}
-                            alt="major land marks"
-                        />
-                    </div>
-                    {/* <div>
+            <div className="col map-section-col-width ">
+                <div className="">
+                    <img
+                        className="d-block rounded-4 highlight-image-height "
+                        src={landmarksListURL}
+                        alt="major land marks"
+                    />
+                </div>
+                {/* <div>
                         <img
                             className="rounded-4 highlight-image-height"
                             src={landmarksLegendURL}
@@ -58,7 +57,6 @@ function PropertyMap() {
                             width="300"
                         />
                     </div> */}
-                </div>
             </div>
         </div>
     );
