@@ -1,24 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap");
 
-html,
-body {
-    position: relative;
-    overflow-y: auto;
-    overflow-x: hidden;
-    top: 10;
-    width: 100%;
-    min-width: 280px;
-    justify-content: center;
-    padding-bottom: 0px;
-    margin: 0;
-    bottom: 0;
+html {
     font-family: "Lato", sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     scroll-padding-top: 55px;
     height: 100%;
 }
+
+body {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+#app-container {
+    top: 0;
+    width: 100%;
+    min-width: 280px;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin: auto;
+    bottom:0;
+}
+
 
 .App {
     text-align: center;

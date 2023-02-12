@@ -10,6 +10,7 @@ function App() {
             data-bs-spy="scroll"
             data-bs-target="#navID"
             data-offset="100"
+            id="app-container"
         >
             <Navbar />
             <Landing />
