@@ -14,7 +14,7 @@ function Navbar() {
                     <a href="/">
                         <img
                             src={southWellsLogo}
-                            alt="3sw-logo"
+                            alt="300 South Wells Logo"
                             width="150"
                             id="logo-name"
                         />
