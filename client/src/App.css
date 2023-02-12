@@ -136,9 +136,14 @@ body {
     /* background-size: cover; */
 }
 
-/* .carousel-container {
-    max-height: 80vh;
-} */
+.carousel-container {
+    /* max-height: 90vh; */
+    z-index: 50;
+}
+
+.about-container{
+    z-index: 90;
+}
 
 .hr-line-width {
     max-width: 1200px;

@@ -46,7 +46,7 @@ function Landing() {
                 <Carousel />
             </div>
             <div
-                className="row p-5 w-auto justify-content-center mint-bg "
+                className="row p-5 w-auto justify-content-center mint-bg about-container"
                 id="about"
             >
                 <About />
