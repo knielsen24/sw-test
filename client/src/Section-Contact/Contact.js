@@ -4,8 +4,8 @@ import emailIcon from "../assets/Icons/email-icon.svg";
 import nielsenLogo from "../assets/Logos/nielsen-logo.png";
 
 function Contact() {
-    const contactClassPtag = " m-1 mx-5";
-    const contactColTag = "col-6 my-2";
+    const contactClassPtag = " m-1 mx-2";
+    const contactColTag = "col-6 my-2 contact-col";
 
     const logicLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/logic-logo_u7tz6o.png";
@@ -39,7 +39,7 @@ function Contact() {
                     </p>
                     <p className={contactClassPtag}>
                         <img
-                            className="me-2 "
+                            className="me-2 mb-1"
                             src={emailIcon}
                             alt="email-icon"
                         />
@@ -72,7 +72,7 @@ function Contact() {
                     </p>
                     <p className={contactClassPtag}>
                         <img
-                            className="me-1"
+                            className="me-2 mb-1"
                             src={emailIcon}
                             alt="email-icon"
                         />
