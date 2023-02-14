@@ -164,6 +164,7 @@ body {
 }
 
 .highlight-image-height {
+    min-height: 350px;
     max-height: 500px;
 }
 

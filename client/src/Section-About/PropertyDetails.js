@@ -6,8 +6,8 @@ function PropertyDetails() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001731/Southwells/assets/300_S_Wells_ave_Building_Layout-med_iysjzq.png";
 
     return (
-        <div className="row my-5">
-            <div className="col ">
+        <div className="row mx-auto my-4 align-items-center justify-content-evenly">
+            <div className="col mb-3 map-section-col-width">
                 <div className="mb-4">
                     <h4 className="p-2 fw-bold text-uppercase">Property Details</h4>
                 </div>
@@ -49,7 +49,7 @@ function PropertyDetails() {
                     </li>
                 </ul>
             </div>
-            <div className="col mx-auto list-width">
+            <div className="col map-section-col-width">
                 <img
                     className="rounded-4 highlight-image-width"
                     src={floorPlanURL}

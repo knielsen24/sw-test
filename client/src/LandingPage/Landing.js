@@ -56,8 +56,10 @@ function Landing() {
                 id="highlights"
             >
                 <PropertyMap />
-                <hr className="hr-line-width"/>
-                <PropertyDetails />
+                <hr className="hr-line-width my-4" />
+                <div className="mb-4">
+                    <PropertyDetails />
+                </div>
             </div>
             <div
                 className=" row p-0 w-auto justify-content-center mint-bg"

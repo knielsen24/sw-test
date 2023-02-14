@@ -18,8 +18,8 @@ function PropertyMap() {
                 <p>Amenities within 3-miles of Radius</p>
             </div>
 
-            <div className="col map-section-col-width">
-                <div className="m-4">
+            <div className="col my-4 map-section-col-width">
+                <div className="p-1">
                     <img
                         className="d-block w-100  "
                         src={mapURL}
@@ -27,7 +27,7 @@ function PropertyMap() {
                         width="400"
                     />
                 </div>
-                <div className="mb-4">
+                <div className="my-5">
                     <a
                         className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
                         target="_blank"
@@ -38,12 +38,13 @@ function PropertyMap() {
                     </a>
                 </div>
             </div>
-            <div className="col map-section-col-width ">
-                <div className="">
+            <div className="col mb-4 map-section-col-width ">
+                <div className="ps-4 p-3">
                     <img
                         className="d-block rounded-4 highlight-image-height "
                         src={landmarksListURL}
                         alt="major land marks"
+                        height="500"
                     />
                 </div>
             </div>
