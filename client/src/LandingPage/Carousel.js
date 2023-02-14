@@ -33,9 +33,9 @@ function Carousel() {
                             alt="property-front"
                         />
                         <div className={captionClassOne}>
-                            <h2 className="text-capitalize banner-transition text-dark text-center">
+                            {/* <h2 className="text-capitalize banner-transition text-dark text-center">
                                 Downtown Reno Commercial Property
-                            </h2>
+                            </h2> */}
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="20000">

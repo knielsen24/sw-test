@@ -32,8 +32,8 @@ body {
 }
 
 .main-content {
-    top: 10;
-    padding-top: 55px;
+    top: 15;
+    /* padding-top: 55px; */
 }
 
 .section {
@@ -70,6 +70,7 @@ body {
 .nav-bg {
     background-color: white;
     opacity: 0.99;
+    transition: .5s ease-in;
 }
 
 .footer {

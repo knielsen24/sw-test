@@ -5,7 +5,7 @@ function Navbar() {
     const [changeBackground, setChangeBackground] = useState(false);
 
     const changeColor = () => {
-        if (window.scrollY >= 10) {
+        if (window.scrollY >= 50) {
             setChangeBackground(true);
         } else {
             setChangeBackground(false);
@@ -21,7 +21,7 @@ function Navbar() {
         <div
             className={
                 changeBackground
-                    ? "nav-header m-0 p-0 border-bottom shadow-sm nav-bg fixed-top "
+                    ? "nav-header m-0 p-0 shadow-sm nav-bg fixed-top "
                     : "nav-header m-0 p-0 fixed-top "
             }
         >

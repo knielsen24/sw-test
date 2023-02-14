@@ -8,11 +8,8 @@ function PropertyMap() {
     const landmarksListURL =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142310/Southwells/assets/300_S_Wells_ave_landmarks-list_th3wbe.png";
 
-    // const landmarksLegendURL =
-    //     "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142312/Southwells/assets/300_S_Wells_ave_landmarks-legend_nctyrp.png";
-
     return (
-        <div className="row mx-auto my-4 align-items-start justify-content-center  ">
+        <div className="row mx-auto my-4 align-items-start justify-content-evenly">
             <div className="my-4">
                 <h4 className="p-2 fw-bold text-uppercase">
                     Strategically located in a dense and established residential
@@ -49,14 +46,6 @@ function PropertyMap() {
                         alt="major land marks"
                     />
                 </div>
-                {/* <div>
-                        <img
-                            className="rounded-4 highlight-image-height"
-                            src={landmarksLegendURL}
-                            alt="map legend"
-                            width="300"
-                        />
-                    </div> */}
             </div>
         </div>
     );
