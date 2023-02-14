@@ -42,12 +42,7 @@ function PropertyCards() {
         return (
             <div className="col m-2 p-3 prop-highlights bg-white rounded-4 shadow">
                 <div className="m-3">
-                    <img
-                        classname="p-2"
-                        src={card.image}
-                        width="30px"
-                        alt={card.alt}
-                    />
+                    <img src={card.image} width="30px" alt={card.alt} />
                 </div>
                 <p className="text-capitalize fw-bold my-2">{card.header}</p>
                 <p className="text-capitalize mb-0">{card.text}</p>

@@ -1,4 +1,4 @@
-import React from "react";
+import squareFtIcon from "../assets/Icons/square-feet-icon.svg";
 
 function PropertyDetails() {
     const liClassName = "bg-transparent list-group-item border border-0 ";
@@ -7,16 +7,26 @@ function PropertyDetails() {
 
     return (
         <div className="row mx-auto my-4 align-items-center justify-content-evenly">
-            <div className="col mb-3 map-section-col-width">
+            <div className="col my-3 map-section-col-width">
                 <div className="mb-4">
-                    <h4 className="p-2 fw-bold text-uppercase">Property Details</h4>
+                    <h4 className="p-2 fw-bold text-uppercase">
+                        Property Details
+                    </h4>
                 </div>
 
                 <ul className="list-group rounded">
                     <li className={liClassName}>
                         <div className="row justify-content-start">
-                            <div className="col fw-bold text-end">40,852</div>
-                            <div className="col ps-0 me-5 text-start">
+                            <div className="col-5 fw-bold text-end">
+                                <img
+                                    className="me-2 mb-1"
+                                    src={squareFtIcon}
+                                    width="20px"
+                                    alt="square feet icon"
+                                />
+                                40,852
+                            </div>
+                            <div className="col-7 p-0 text-start">
                                 Square Feet on 2.30 Acres
                             </div>
                         </div>
@@ -49,11 +59,12 @@ function PropertyDetails() {
                     </li>
                 </ul>
             </div>
-            <div className="col map-section-col-width">
+            <div className="col my-5 map-section-col-width">
                 <img
-                    className="rounded-4 highlight-image-width"
+                    className="rounded-4 d-block w-100"
                     src={floorPlanURL}
                     alt="map location"
+                    width="400"
                 />
             </div>
         </div>

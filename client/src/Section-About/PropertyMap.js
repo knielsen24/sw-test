@@ -21,7 +21,7 @@ function PropertyMap() {
             <div className="col my-4 map-section-col-width">
                 <div className="p-1">
                     <img
-                        className="d-block w-100  "
+                        className="d-block w-100"
                         src={mapURL}
                         alt="map location"
                         width="400"
