@@ -69,7 +69,7 @@ body {
 
 .nav-bg {
     background-color: white;
-    opacity: 0.99;
+    /* opacity: 0.99; */
     transition: .5s ease-in;
 }
 
@@ -117,10 +117,11 @@ body {
 #toTopBtn {
     position: fixed;
     bottom: 110px;
-    right: 15px;
+    right: 10px;
     z-index: 98;
     padding: 21px;
-    /* transition: 0.5s ease-in; */
+    opacity: .90;
+    transition: 0.9s ease-in;
 }
 
 
