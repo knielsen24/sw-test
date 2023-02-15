@@ -73,9 +73,9 @@ function Landing() {
             >
                 <Courtyard />
             </div>
-            <div className="row p-0 w-auto justify-content-center" id="contact">
+            {/* <div className="row p-0 w-auto justify-content-center" id="contact">
                 <Contact />
-            </div>
+            </div> */}
 
             <div
                 className=" row p-0 w-auto justify-content-center"
