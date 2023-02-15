@@ -13,7 +13,7 @@ function Contact() {
 
     return (
         <div className="col section mx-auto my-3 flex-lg-column p-1">
-            <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
+            <h4 className="my-3 p-1 text-uppercase">
                 Contact
             </h4>
             <div className="row justify-content-center">

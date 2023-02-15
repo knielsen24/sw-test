@@ -29,7 +29,7 @@ function Carousel() {
                     >
                         <img
                             src={landingOneURL}
-                            className="d-block w-100 "
+                            className="d-block w-100 image-z-index"
                             alt="property-front"
                         />
                         <div className={captionClassOne}>

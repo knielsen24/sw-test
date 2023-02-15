@@ -141,16 +141,22 @@ body {
 
 .hero-container {
     object-fit: cover;
-    /* background-size: cover; */
+    background-size: cover;
+    z-index: 90;
 }
 
 .carousel-container {
-    /* max-height: 90vh; */
+    /* width: 100%; */
+    /* max-height: 100vh; */
+    /* z-index: 50; */
+}
+
+.image-z-index {
     z-index: 50;
 }
 
 .about-container{
-    z-index: 90;
+    z-index: 95;
 }
 
 .hr-line-width {
@@ -172,3 +178,4 @@ body {
 .contact-col {
     min-width: 250px;
 }
+

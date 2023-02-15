@@ -43,7 +43,7 @@ function BrandsContainer() {
 
     return (
         <div className="col p-1 section mx-auto">
-            <h4 className="my-3 p-1 bg-light rounded border text-uppercase">
+            <h4 className="my-3 p-1  text-uppercase">
                 Patrons
             </h4>
             <div className="row justify-content-center">
