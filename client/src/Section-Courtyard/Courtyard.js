@@ -10,14 +10,14 @@ function Courtyard() {
     // const pTagClass = "mb-3";
 
     return (
-        <div className="col section mx-auto mt-2 justify-content-center p-1">
+        <div className="col section mx-auto my-3 justify-content-center p-2">
             <div className="my-4">
-                <h4 className="p-2 fw-bold">The Courtyard</h4>
+                <h4 className="p-2 fw-bold text-uppercase">The Courtyard</h4>
                 <p>An intimate event venue perfect for your party</p>
             </div>
 
             <div className="row">
-                <div className="col hero-container mx-auto">
+                <div className="col courtyard-container mx-auto">
                     <div className="rounded-4">
                         <img
                             src={courtyardOne}

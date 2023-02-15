@@ -68,7 +68,7 @@ function Landing() {
                 <ForLease />
             </div>
             <div
-                className="row p-0 w-auto justify-content-center mint-bg"
+                className="row mb-2 p-2 w-auto justify-content-center mint-bg"
                 id="courtyard"
             >
                 <Courtyard />

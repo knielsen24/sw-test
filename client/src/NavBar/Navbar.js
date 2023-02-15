@@ -64,21 +64,20 @@ function Navbar() {
                                 </a>
                             </li>
                             <li className={navLinksClass}>
-                                <a className={navATagClass} href="#courtyard">
-                                    The Courtyard
-                                </a>
-                            </li>
-                            <li className={navLinksClass}>
                                 <a className={navATagClass} href="#for-lease">
                                     For Lease
                                 </a>
                             </li>
-
                             <li className={navLinksClass}>
+                                <a className={navATagClass} href="#courtyard">
+                                    The Courtyard
+                                </a>
+                            </li>
+                            {/* <li className={navLinksClass}>
                                 <a className={navATagClass} href="#contact">
                                     Contact
                                 </a>
-                            </li>
+                            </li> */}
                             <li className={navLinksClass}>
                                 <a className={navATagClass} href="#partners">
                                     Patrons

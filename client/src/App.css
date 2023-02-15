@@ -182,3 +182,7 @@ body {
 .brands-col-min-width {
     min-width: 200px;
 }
+
+.courtyard-container {
+    max-width: 800px;
+}
