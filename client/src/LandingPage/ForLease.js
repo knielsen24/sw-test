@@ -8,17 +8,20 @@ function ForLease() {
     // const pTagClass = "mb-3";
 
     return (
-        <div className="col mb-5 p-1 ">
-            <h5 className="text-uppercase">Leasing availability</h5>
-            <div className="row">
+        <div className="col mb-5 p-1">
+            <div className="row justify-content-center">
+
+                <h4 className="fw-bold text-uppercase">
+                    Leasing availability
+                </h4>
                 <div className="col">
-                    <p className="">
+                    <p className="my-3">
                         Checkout the flyer for more information about available
                         space
                     </p>
                 </div>
             </div>
-            <div className="row mb-3 justify-content-center">
+            <div className="row my-3 justify-content-center">
                 <div className="col">
                     <a
                         className="btn btn-primary btn-sm text-decoration-none text-uppercase shadow-sm"
