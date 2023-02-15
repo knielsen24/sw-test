@@ -37,13 +37,13 @@ function BrandsContainer() {
     const sierraSageLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668061088/Southwells/logos/sierra-sage-logo_iaec0z.png";
 
-    const brandsColClass = "col mx-5 my-3 brands-col-min-width";
-    const brandsColClassAtleier = "col mx-5 my-2 brands-col-min-width";
-    const brandsColClassDorindas = "col mx-5 my-0 brands-col-min-width";
+    const brandsColClass = "col mx-5 my-4 brands-col-min-width";
+    const brandsColClassAtleier = "col mx-5 my-4 brands-col-min-width";
+    const brandsColClassDorindas = "col mx-5 my-4 brands-col-min-width";
 
     return (
-        <div className="col p-1 section mx-auto">
-            <h4 className="my-3 p-1  text-uppercase">
+        <div className="col my-4 p-1 section mx-auto">
+            <h4 className="mb-3 p-1  text-uppercase">
                 Patrons
             </h4>
             <div className="row justify-content-center">
