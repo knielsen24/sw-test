@@ -56,19 +56,20 @@ function Landing() {
                 id="highlights"
             >
                 <PropertyMap />
-                <hr className="hr-line-width my-4" />
-                <div className="mb-4">
+                <hr className="hr-line-width my-2" />
+                <div className="mb-1">
                     <PropertyDetails />
                 </div>
+                <hr className="hr-line-width my-4" />
             </div>
             <div
-                className="row p-0 w-auto justify-content-center"
+                className="row p-0 mt-4 w-auto justify-content-center"
                 id="for-lease"
             >
                 <ForLease />
             </div>
             <div
-                className="row mb-2 p-2 w-auto justify-content-center mint-bg"
+                className="row mb-4 p-2 w-auto justify-content-center mint-bg"
                 id="courtyard"
             >
                 <Courtyard />
