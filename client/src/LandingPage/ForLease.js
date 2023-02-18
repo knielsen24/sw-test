@@ -1,6 +1,5 @@
 import phoneIcon from "../assets/Icons/phone-icon.svg";
 import emailIcon from "../assets/Icons/email-icon.svg";
-import nielsenLogo from "../assets/Logos/nielsen-logo.png";
 import downloadWhiteIcon from "../assets/Icons/download-icon-white.svg";
 
 function ForLease() {

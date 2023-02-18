@@ -2,7 +2,7 @@ import { useState } from "react";
 import About from "../Section-About/About";
 import BrandsContainer from "../Section-Brands/BrandsContainer";
 import Carousel from "./Carousel";
-import Contact from "../Section-Contact/Contact";
+// import Contact from "../Section-Contact/Contact";
 import Courtyard from "../Section-Courtyard/Courtyard";
 import ForLease from "./ForLease";
 import chevronUp from "../assets/Icons/chevron-up.svg";

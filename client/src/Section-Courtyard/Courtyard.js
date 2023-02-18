@@ -6,7 +6,7 @@ function Courtyard() {
     const courtyardOne =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668067047/Southwells/courtyard/sw-courtyard-1_lburt2.jpg";
     const contactClassPtag = " m-1 mx-2";
-    const contactColTag = "col-6 my-2 contact-col";
+    // const contactColTag = "col-6 my-2 contact-col";
     // const pTagClass = "mb-3";
 
     return (
