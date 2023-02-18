@@ -99,8 +99,8 @@ body {
 
 .banner-caption-two {
     position: absolute;
-    right: 60px;
-    bottom: 40px;
+    right: 100px;
+    bottom: 120px;
     z-index: 98;
 }
 

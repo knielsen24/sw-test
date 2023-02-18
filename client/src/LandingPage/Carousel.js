@@ -12,8 +12,8 @@ function Carousel() {
 
     const captionClassOne =
         "carousel-caption banner-caption-top p-2 mx-0 d-none d-sm-block rounded text-white ";
-    const captionClassTwo =
-        "carousel-caption banner-caption-two d-none d-md-block";
+    // const captionClassTwo =
+    //     "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
         <div className="col p-0 carousel-col-container">
@@ -33,8 +33,8 @@ function Carousel() {
                             alt="property-front"
                         />
                         <div className={captionClassOne}>
-                            {/* <h2 className="text-capitalize banner-transition text-dark text-center">
-                                Downtown Reno Commercial Property
+                            {/* <h2 className="text-capitalize banner-transition text-dark text-center float-end">
+                                Commercial Property Near Downtown Reno
                             </h2> */}
                         </div>
                     </div>
@@ -44,8 +44,8 @@ function Carousel() {
                             className="d-block w-100 "
                             alt="property-street"
                         />
-                        <div className={captionClassTwo}>
-                            <div className="row">
+                        {/* <div className={captionClassTwo}>
+                            <div className="row ">
                                 <div className="col align-self-end pe-0">
                                     <h2 className="float-end">
                                         Located in the Wells Avenue District
@@ -54,8 +54,7 @@ function Carousel() {
                             </div>
 
                             <div className="row justify-content-center">
-                                <div className="col-4"></div>
-                                <div className="col-8">
+                                <div className="col">
                                     <a
                                         className="btn btn-outline-light text-decoration-none text-uppercase float-end"
                                         href="#for-lease"
@@ -65,7 +64,7 @@ function Carousel() {
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="carousel-item" data-bs-interval="5000">
                         <img
