@@ -1,29 +1,30 @@
-import { useState } from "react";
+// import { useState } from "react";
 import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 
 function Navbar() {
-    const [changeBackground, setChangeBackground] = useState(false);
+    // const [changeBackground, setChangeBackground] = useState(false);
+    // const [openNav, setOpenNav] = useState(false)
 
-    const changeColor = () => {
-        if (window.scrollY >= 50) {
-            setChangeBackground(true);
-        } else {
-            setChangeBackground(false);
-        }
-    };
+    // const changeColor = () => {
+    //     if (window.scrollY >= 50 || openNav) {
+    //         setChangeBackground(true);
+    //     } else {
+    //         setChangeBackground(false);
+    //     }
+    // };
 
-    window.addEventListener("scroll", changeColor);
+    // window.addEventListener("scroll", changeColor);
 
     const navLinksClass = "nav-item m-1";
     const navATagClass = "nav-link pb-0 text-uppercase";
 
     return (
-        <div
-            className={
-                changeBackground
-                    ? "nav-header m-0 p-0 shadow-sm nav-bg fixed-top "
-                    : "nav-header m-0 p-0 fixed-top "
-            }
+        <div className="nav-header m-0 p-0 shadow-sm nav-bg fixed-top "
+            // className={
+            //     changeBackground
+            //         ? "nav-header m-0 p-0 shadow-sm nav-bg fixed-top "
+            //         : "nav-header m-0 p-0 fixed-top"
+            // }
         >
             <nav
                 className="container navbar navbar-expand-lg rounded "
@@ -46,6 +47,7 @@ function Navbar() {
                         aria-controls="navbarNavDropdown"
                         aria-expanded="false"
                         aria-label="Toggle navigation"
+                        // onClick={()=> setOpenNav(!openNav)}
                     >
                         <span className="navbar-toggler-icon "></span>
                     </button>

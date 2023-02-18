@@ -16,20 +16,20 @@ function Carousel() {
         "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
-        <div className="col p-0 hero-container">
+        <div className="col p-1 carousel-col-container">
             <div
                 id="banners-carousel"
                 className="carousel slide "
                 data-bs-ride="carousel"
             >
-                <div className="carousel-inner">
+                <div className="carousel-inner rounded">
                     <div
-                        className="carousel-item active bg-dark"
+                        className="carousel-item active "
                         data-bs-interval="20000"
                     >
                         <img
                             src={landingOneURL}
-                            className="d-block w-100 image-z-index"
+                            className="d-block w-100 "
                             alt="property-front"
                         />
                         <div className={captionClassOne}>

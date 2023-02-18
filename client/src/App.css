@@ -13,11 +13,11 @@ body {
     position: relative;
     overflow-y: auto;
     overflow-x: hidden;
-
+    top: 10;
+    padding-top: 55px;
 }
 
 #app-container {
-    top: 0;
     width: 100%;
     min-width: 280px;
     justify-content: center;
@@ -139,20 +139,18 @@ body {
     max-width: 400px;
 }
 
-.hero-container {
-    object-fit: cover;
-    background-size: cover;
-    z-index: 90;
-}
-
 .carousel-container {
-    /* width: 100%; */
-    /* max-height: 100vh; */
-    /* z-index: 50; */
+    object-fit: contain;
+    background-size: contain;
+
+    overflow: none;
 }
 
-.image-z-index {
-    z-index: 50;
+.carousel-col-container {
+    max-width: 1200px;
+    max-height: 90%;
+    object-fit: contain;
+    /* margin-bottom: 200px; */
 }
 
 .about-container{
@@ -186,3 +184,4 @@ body {
 .courtyard-container {
     max-width: 800px;
 }
+
