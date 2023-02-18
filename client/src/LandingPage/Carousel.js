@@ -16,7 +16,7 @@ function Carousel() {
         "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
-        <div className="col p-1 carousel-col-container">
+        <div className="col p-0 carousel-col-container">
             <div
                 id="banners-carousel"
                 className="carousel slide "
@@ -29,7 +29,7 @@ function Carousel() {
                     >
                         <img
                             src={landingOneURL}
-                            className="d-block w-100 "
+                            className="d-block w-100 carousel-image-container"
                             alt="property-front"
                         />
                         <div className={captionClassOne}>

@@ -140,17 +140,14 @@ body {
 }
 
 .carousel-container {
-    object-fit: contain;
-    background-size: contain;
-
-    overflow: none;
+    /* padding-top: 200px; */
+    /* object-fit: cover; */
+    /* background-size: contain; */
 }
 
-.carousel-col-container {
-    max-width: 1200px;
-    max-height: 90%;
-    object-fit: contain;
-    /* margin-bottom: 200px; */
+.carousel-image-container {
+     /* padding-top: 100px;
+    padding-bottom: 100px; */
 }
 
 .about-container{
