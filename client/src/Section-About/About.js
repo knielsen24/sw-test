@@ -14,7 +14,7 @@ function About() {
                     </h3>
                 </div>
 
-                <div className="row ">
+                <div className="row">
                     <PropertyCards />
                 </div>
             </div>

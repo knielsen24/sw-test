@@ -4,7 +4,7 @@ import BrandsContainer from "../Section-Brands/BrandsContainer";
 import Carousel from "./Carousel";
 // import Contact from "../Section-Contact/Contact";
 import Courtyard from "../Section-Courtyard/Courtyard";
-import ForLease from "../Section-About/ForLease";
+import ForLease from "../Section-ForLease/ForLease";
 import PropertyDetails from "../Section-About/PropertyDetails";
 import PropertyMap from "../Section-About/PropertyMap";
 import ToTopButton from "./ToTopButton";
@@ -26,10 +26,7 @@ function Landing() {
         <div className="container-fluid m-auto text-center main-content">
             <Carousel />
             <About />
-            <div
-                className="row p-2 mt-0 w-auto justify-content-center bg-white "
-                id="highlights"
-            >
+            <div className="row p-2 mt-0 w-auto justify-content-center">
                 <PropertyMap />
                 <hr className="hr-line-width my-2" />
                 <div className="mb-1">
