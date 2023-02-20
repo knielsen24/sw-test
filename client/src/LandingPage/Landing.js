@@ -5,9 +5,9 @@ import Carousel from "./Carousel";
 // import Contact from "../Section-Contact/Contact";
 import Courtyard from "../Section-Courtyard/Courtyard";
 import ForLease from "./ForLease";
-import chevronUp from "../assets/Icons/chevron-up.svg";
 import PropertyDetails from "../Section-About/PropertyDetails";
 import PropertyMap from "../Section-About/PropertyMap";
+import ToTopButton from "./ToTopButton";
 
 function Landing() {
     const [toTopButton, setToTopButton] = useState(false);
@@ -19,24 +19,6 @@ function Landing() {
             setToTopButton(false);
         }
     };
-
-    let renderButton;
-    if (toTopButton) {
-        renderButton = (
-            <a
-                className="bg-white border border-secondary rounded-4 p-2"
-                id="toTopBtn"
-                href="#banners-carousel"
-            >
-                <img
-                    className="p-0 m-0"
-                    src={chevronUp}
-                    alt="chevronup"
-                    width="30px"
-                />
-            </a>
-        );
-    }
 
     window.addEventListener("scroll", showButton);
 
@@ -84,8 +66,7 @@ function Landing() {
             >
                 <BrandsContainer />
             </div>
-            <div></div>
-            {renderButton}
+            {toTopButton ? <ToTopButton /> : null}
         </div>
     );
 }
