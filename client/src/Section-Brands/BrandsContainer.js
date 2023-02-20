@@ -42,180 +42,182 @@ function BrandsContainer() {
     const brandsColClassDorindas = "col mx-5 my-4 brands-col-min-width";
 
     return (
-        <div className="col my-4 p-1 section mx-auto">
-            <h3 className="fw-bold mb-3 p-1 text-uppercase">Patrons</h3>
-            <div className="row justify-content-center">
-                <div className="col">
-                    <div className="row mb-2 align-items-center">
-                        <div className={brandsColClassAtleier}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={atelierURL}
-                            >
-                                <img
-                                    className=""
-                                    src={atelierLogo}
-                                    alt="atelier logo"
-                                    width="170"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClassDorindas}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={craigTeamURL}
-                            >
-                                <img
-                                    className=""
-                                    src={craigTeamLogo}
-                                    alt="craig team realty exp realty"
-                                    width="175"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClassAtleier}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={dorindasURL}
-                            >
-                                <img
-                                    className=""
-                                    src={dorindasLogo}
-                                    alt="dorinda's chocolates logo"
-                                    width="155"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClass}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={entravisionURL}
-                            >
-                                <img
-                                    className=""
-                                    src={entravisionLogo}
-                                    alt="entravision tv"
-                                    width="190"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClass}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={handCraftURL}
-                            >
-                                <img
-                                    className=""
-                                    src={handCraftLogo}
-                                    alt="hand craft coffee company "
-                                    width="190px"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClassAtleier}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={liveKayaURL}
-                            >
-                                <img
-                                    className=""
-                                    src={liveKayaLogo}
-                                    alt="live kaya"
-                                    width="195"
-                                />
-                            </a>
-                        </div>
+        <div className=" row p-0 w-auto justify-content-center" id="partners">
+            <div className="col my-4 p-1 section mx-auto">
+                <h3 className="fw-bold mb-3 p-1 text-uppercase">Patrons</h3>
+                <div className="row justify-content-center">
+                    <div className="col">
+                        <div className="row mb-2 align-items-center">
+                            <div className={brandsColClassAtleier}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={atelierURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={atelierLogo}
+                                        alt="atelier logo"
+                                        width="170"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClassDorindas}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={craigTeamURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={craigTeamLogo}
+                                        alt="craig team realty exp realty"
+                                        width="175"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClassAtleier}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={dorindasURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={dorindasLogo}
+                                        alt="dorinda's chocolates logo"
+                                        width="155"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClass}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={entravisionURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={entravisionLogo}
+                                        alt="entravision tv"
+                                        width="190"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClass}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={handCraftURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={handCraftLogo}
+                                        alt="hand craft coffee company "
+                                        width="190px"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClassAtleier}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={liveKayaURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={liveKayaLogo}
+                                        alt="live kaya"
+                                        width="195"
+                                    />
+                                </a>
+                            </div>
 
-                        <div className={brandsColClass}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={theMillBarreURL}
-                            >
-                                <img
-                                    className=""
-                                    src={theMillBarreLogo}
-                                    alt="the mill barre + pilates"
-                                    width="190"
-                                />
-                            </a>
-                        </div>
+                            <div className={brandsColClass}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={theMillBarreURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={theMillBarreLogo}
+                                        alt="the mill barre + pilates"
+                                        width="190"
+                                    />
+                                </a>
+                            </div>
 
-                        <div className={brandsColClass}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={rideConceptsURL}
-                            >
-                                <img
-                                    className=""
-                                    src={rideConceptsLogo}
-                                    alt="ride concepts"
-                                    width="190"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClass}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={sierraSageURL}
-                            >
-                                <img
-                                    className=""
-                                    src={sierraSageLogo}
-                                    alt="sierra & sage hair extensions"
-                                    width="190px"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClass}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={terraphaseURL}
-                            >
-                                <img
-                                    className=""
-                                    src={terraphaseLogo}
-                                    alt="terraphase engineering"
-                                    width="190"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClassDorindas}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={vanmarLendingURL}
-                            >
-                                <img
-                                    className=""
-                                    src={vanmarLogo}
-                                    alt="vanmar lending"
-                                    width="190"
-                                />
-                            </a>
-                        </div>
-                        <div className={brandsColClass}>
-                            <a
-                                target="_blank"
-                                rel="noreferrer"
-                                href={walgreensURL}
-                            >
-                                <img
-                                    className=""
-                                    src={walgreensLogo}
-                                    alt="walgreens pharmancy"
-                                    width="190"
-                                />
-                            </a>
+                            <div className={brandsColClass}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={rideConceptsURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={rideConceptsLogo}
+                                        alt="ride concepts"
+                                        width="190"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClass}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={sierraSageURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={sierraSageLogo}
+                                        alt="sierra & sage hair extensions"
+                                        width="190px"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClass}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={terraphaseURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={terraphaseLogo}
+                                        alt="terraphase engineering"
+                                        width="190"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClassDorindas}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={vanmarLendingURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={vanmarLogo}
+                                        alt="vanmar lending"
+                                        width="190"
+                                    />
+                                </a>
+                            </div>
+                            <div className={brandsColClass}>
+                                <a
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    href={walgreensURL}
+                                >
+                                    <img
+                                        className=""
+                                        src={walgreensLogo}
+                                        alt="walgreens pharmancy"
+                                        width="190"
+                                    />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

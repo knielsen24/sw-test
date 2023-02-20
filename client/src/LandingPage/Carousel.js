@@ -16,35 +16,36 @@ function Carousel() {
     //     "carousel-caption banner-caption-two d-none d-md-block";
 
     return (
-        <div className="col p-0 carousel-col-container">
-            <div
-                id="banners-carousel"
-                className="carousel slide "
-                data-bs-ride="carousel"
-            >
-                <div className="carousel-inner">
-                    <div
-                        className="carousel-item active "
-                        data-bs-interval="20000"
-                    >
-                        <img
-                            src={landingOneURL}
-                            className="d-block w-100 carousel-image-container"
-                            alt="property-front"
-                        />
-                        <div className={captionClassOne}>
-                            {/* <h2 className="text-capitalize banner-transition text-dark text-center float-end">
+        <div className="row p-0 w-auto justify-content-center carousel-container">
+            <div className="col p-0 carousel-col-container">
+                <div
+                    id="banners-carousel"
+                    className="carousel slide "
+                    data-bs-ride="carousel"
+                >
+                    <div className="carousel-inner">
+                        <div
+                            className="carousel-item active "
+                            data-bs-interval="20000"
+                        >
+                            <img
+                                src={landingOneURL}
+                                className="d-block w-100 carousel-image-container"
+                                alt="property-front"
+                            />
+                            <div className={captionClassOne}>
+                                {/* <h2 className="text-capitalize banner-transition text-dark text-center float-end">
                                 Commercial Property Near Downtown Reno
                             </h2> */}
+                            </div>
                         </div>
-                    </div>
-                    <div className="carousel-item" data-bs-interval="20000">
-                        <img
-                            src={landingTwoURL}
-                            className="d-block w-100 "
-                            alt="property-street"
-                        />
-                        {/* <div className={captionClassTwo}>
+                        <div className="carousel-item" data-bs-interval="20000">
+                            <img
+                                src={landingTwoURL}
+                                className="d-block w-100 "
+                                alt="property-street"
+                            />
+                            {/* <div className={captionClassTwo}>
                             <div className="row ">
                                 <div className="col align-self-end pe-0">
                                     <h2 className="float-end">
@@ -65,53 +66,54 @@ function Carousel() {
                                 </div>
                             </div>
                         </div> */}
+                        </div>
+                        <div className="carousel-item" data-bs-interval="5000">
+                            <img
+                                src={landingThreeURL}
+                                className="d-block w-100 "
+                                alt="property-courtyard"
+                            />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="5000">
+                            <img
+                                src={landingFourURL}
+                                className="d-block w-100 "
+                                alt="courtyard-1"
+                            />
+                        </div>
+                        <div className="carousel-item" data-bs-interval="5000">
+                            <img
+                                src={landingFiveURL}
+                                className="d-block w-100 "
+                                alt="courtyard-2"
+                            />
+                        </div>
                     </div>
-                    <div className="carousel-item" data-bs-interval="5000">
-                        <img
-                            src={landingThreeURL}
-                            className="d-block w-100 "
-                            alt="property-courtyard"
-                        />
-                    </div>
-                    <div className="carousel-item" data-bs-interval="5000">
-                        <img
-                            src={landingFourURL}
-                            className="d-block w-100 "
-                            alt="courtyard-1"
-                        />
-                    </div>
-                    <div className="carousel-item" data-bs-interval="5000">
-                        <img
-                            src={landingFiveURL}
-                            className="d-block w-100 "
-                            alt="courtyard-2"
-                        />
-                    </div>
+                    <button
+                        className="carousel-control-prev ms-3"
+                        type="button"
+                        data-bs-target="#banners-carousel"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            className="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        className="carousel-control-next me-3"
+                        type="button"
+                        data-bs-target="#banners-carousel"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            className="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button
-                    className="carousel-control-prev ms-3"
-                    type="button"
-                    data-bs-target="#banners-carousel"
-                    data-bs-slide="prev"
-                >
-                    <span
-                        className="carousel-control-prev-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button
-                    className="carousel-control-next me-3"
-                    type="button"
-                    data-bs-target="#banners-carousel"
-                    data-bs-slide="next"
-                >
-                    <span
-                        className="carousel-control-next-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     );

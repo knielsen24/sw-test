@@ -24,15 +24,8 @@ function Landing() {
 
     return (
         <div className="container-fluid m-auto text-center main-content">
-            <div className="row p-0 w-auto justify-content-center carousel-container">
-                <Carousel />
-            </div>
-            <div
-                className="row p-5 w-auto justify-content-center mint-bg about-container"
-                id="about"
-            >
-                <About />
-            </div>
+            <Carousel />
+            <About />
             <div
                 className="row p-2 mt-0 w-auto justify-content-center bg-white "
                 id="highlights"
@@ -43,26 +36,9 @@ function Landing() {
                     <PropertyDetails />
                 </div>
             </div>
-            <div className="row bg-light p-2 w-auto justify-content-center " id="for-lease">
-                {/* <hr className="hr-line-width my-2" id="for-lease" /> */}
-                <ForLease />
-            </div>
-            <div
-                className="row mb-4 p-2 w-auto justify-content-center mint-bg"
-                id="courtyard"
-            >
-                <Courtyard />
-            </div>
-            {/* <div className="row p-0 w-auto justify-content-center" id="contact">
-                <Contact />
-            </div> */}
-
-            <div
-                className=" row p-0 w-auto justify-content-center"
-                id="partners"
-            >
-                <BrandsContainer />
-            </div>
+            <ForLease />
+            <Courtyard />
+            <BrandsContainer />
             {toTopButton ? <ToTopButton /> : null}
         </div>
     );

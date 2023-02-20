@@ -13,8 +13,11 @@ function ForLease() {
     const contactColTag = "col-6 my-2 contact-col";
 
     return (
-        <div className="row p-0 mt-5 w-auto justify-content-center">
-            <div className="col mb-5 p-1">
+        <div
+            className="row bg-light p-2 w-auto justify-content-center "
+            id="for-lease"
+        >
+            <div className="col my-5 p-1">
                 <h4 className="fw-bold text-uppercase">Available Spaces</h4>
                 <div className="row my-4 justify-content-center">
                     <h5 className="mb-3">
@@ -29,8 +32,8 @@ function ForLease() {
 
                 <div className="col">
                     <p className="my-3">
-                        Checkout the flyer for more information about the available
-                        spaces
+                        Checkout the flyer for more information about the
+                        available spaces
                     </p>
                 </div>
 
@@ -54,7 +57,9 @@ function ForLease() {
                 </div>
                 <div className="row my-3 justify-content-center">
                     <div className={contactColTag}>
-                        <h4 className="fw-bold py-1 m-1 text-uppercase">Contact</h4>
+                        <h4 className="fw-bold py-1 m-1 text-uppercase">
+                            Contact
+                        </h4>
                         <div>
                             <a target="_blank" href={logicURL} rel="noreferrer">
                                 <img
