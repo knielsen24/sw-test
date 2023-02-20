@@ -42,12 +42,9 @@ function Landing() {
                 <div className="mb-1">
                     <PropertyDetails />
                 </div>
-                <hr className="hr-line-width my-4" />
             </div>
-            <div
-                className="row p-0 mt-4 w-auto justify-content-center"
-                id="for-lease"
-            >
+            <div className="row p-2 w-auto justify-content-center">
+                <hr className="hr-line-width my-2" id="for-lease" />
                 <ForLease />
             </div>
             <div

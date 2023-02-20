@@ -13,71 +13,76 @@ function ForLease() {
     const contactColTag = "col-6 my-2 contact-col";
 
     return (
-        <div className="col mb-5 p-1">
-            <h4 className="fw-bold text-uppercase">Available Spaces</h4>
-            <div className="row justify-content-center">
-                <h5>
-                    Suite 7
-                    <small className="text-muted ms-2">
-                        Residents Serviced
-                    </small>
-                </h5>
-            </div>
-            <div className="col">
-                <p className="my-3">
-                    Checkout the flyer for more information about available
-                    space
-                </p>
-            </div>
-
-            <div className="row my-3 justify-content-center">
-                <div className="col">
-                    <a
-                        className="btn btn-primary btn-sm text-decoration-none text-uppercase shadow-sm"
-                        target="_blank"
-                        href={pdfFlyerLink}
-                        rel="noreferrer"
-                    >
-                        <img
-                            className="me-2 mb-1 text-primary"
-                            src={downloadWhiteIcon}
-                            width="15"
-                            alt="download icon"
-                        />
-                        Download Flyer
-                    </a>
+        <div className="row p-0 mt-5 w-auto justify-content-center">
+            <div className="col mb-5 p-1">
+                <h4 className="fw-bold text-uppercase">Available Spaces</h4>
+                <div className="row my-4 justify-content-center">
+                    <h5 className="mb-3">
+                        Suite 7
+                        <small className="text-muted ms-2">- 2,222 SF</small>
+                    </h5>
+                    <h5>
+                        Suite 9
+                        <small className="text-muted ms-2">- 3,950 SF</small>
+                    </h5>
                 </div>
-            </div>
-            <div className="row my-3 justify-content-center">
-                <div className={contactColTag}>
-                    <h5 className="py-1 m-1 text-uppercase">Contact</h5>
-                    <div>
-                        <a target="_blank" href={logicURL} rel="noreferrer">
+
+                <div className="col">
+                    <p className="my-3">
+                        Checkout the flyer for more information about the available
+                        spaces
+                    </p>
+                </div>
+
+                <div className="row my-5 justify-content-center">
+                    <div className="col">
+                        <a
+                            className="btn btn-primary btn-sm text-decoration-none text-uppercase shadow-sm"
+                            target="_blank"
+                            href={pdfFlyerLink}
+                            rel="noreferrer"
+                        >
                             <img
-                                className="py-2"
-                                src={logicLogo}
-                                alt="logic-logo"
-                                width="60px"
+                                className="me-2 mb-1 text-primary"
+                                src={downloadWhiteIcon}
+                                width="15"
+                                alt="download icon"
                             />
+                            Download Flyer
                         </a>
                     </div>
-                    <p className={contactClassPtag}>Michael Keating</p>
-                    <p className={contactClassPtag}>
-                        <img
-                            className="me-1 mb-1"
-                            src={phoneIcon}
-                            alt="phone-icon"
-                        />
-                        775-386-9727
-                    </p>
-                    <p className={contactClassPtag}>
-                        <img
-                            className="me-2 mb-1"
-                            src={emailIcon}
-                            alt="email-icon"
-                        />
-                        mkeating@logicCRE.com
-                    </p>
+                </div>
+                <div className="row my-3 justify-content-center">
+                    <div className={contactColTag}>
+                        <h4 className="fw-bold py-1 m-1 text-uppercase">Contact</h4>
+                        <div>
+                            <a target="_blank" href={logicURL} rel="noreferrer">
+                                <img
+                                    className="py-2"
+                                    src={logicLogo}
+                                    alt="logic-logo"
+                                    width="60px"
+                                />
+                            </a>
+                        </div>
+                        <p className={contactClassPtag}>Michael Keating</p>
+                        <p className={contactClassPtag}>
+                            <img
+                                className="me-1 mb-1"
+                                src={phoneIcon}
+                                alt="phone-icon"
+                            />
+                            775-386-9727
+                        </p>
+                        <p className={contactClassPtag}>
+                            <img
+                                className="me-2 mb-1"
+                                src={emailIcon}
+                                alt="email-icon"
+                            />
+                            mkeating@logicCRE.com
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
