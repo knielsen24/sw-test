@@ -43,8 +43,8 @@ function Landing() {
                     <PropertyDetails />
                 </div>
             </div>
-            <div className="row p-2 w-auto justify-content-center">
-                <hr className="hr-line-width my-2" id="for-lease" />
+            <div className="row bg-light p-2 w-auto justify-content-center " id="for-lease">
+                {/* <hr className="hr-line-width my-2" id="for-lease" /> */}
                 <ForLease />
             </div>
             <div
