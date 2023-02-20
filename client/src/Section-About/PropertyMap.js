@@ -9,7 +9,7 @@ function PropertyMap() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142310/Southwells/assets/300_S_Wells_ave_landmarks-list_th3wbe.png";
 
     return (
-        <div className="row mx-auto my-4 align-items-start justify-content-evenly">
+        <div className="row mx-auto my-4 align-items-center justify-content-evenly">
             <div className="my-4">
                 <h4 className="p-2 fw-bold text-uppercase">
                     Strategically located in a dense and established residential
@@ -18,18 +18,11 @@ function PropertyMap() {
                 <p>Amenities within 3-miles of Radius</p>
             </div>
 
-            <div className="col my-4 map-section-col-width">
-                <div className="p-1">
-                    <img
-                        className="d-block w-100"
-                        src={mapURL}
-                        alt="map location"
-                        width="400"
-                    />
-                </div>
-                <div className="my-5">
+            <div className="col my-4 map-section-col-width ">
+                <div className="">
+                    <img className="mb-2 w-100" src={mapURL} alt="map location" />
                     <a
-                        className="btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
+                        className="mt-5 btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
                         target="_blank"
                         href={googleMaps}
                         rel="noreferrer"
@@ -38,15 +31,15 @@ function PropertyMap() {
                     </a>
                 </div>
             </div>
-            <div className="col mb-4 map-section-col-width ">
-                <div className="ms-1 ps-4 p-3">
-                    <img
-                        className="d-block rounded-4 highlight-image-height "
-                        src={landmarksListURL}
-                        alt="major land marks"
-                        height="500"
-                    />
-                </div>
+            <div className="col my-4 map-section-col-width">
+                <img
+                    className="ps-3 w-100 highlight-image-width"
+                    src={landmarksListURL}
+                    alt="major land marks"
+                    // height="500"
+                />
+                {/* <div className="ms-1 ps-4 p-3">
+                </div> */}
             </div>
         </div>
     );

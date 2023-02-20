@@ -14,20 +14,20 @@ function ForLease() {
 
     return (
         <div className="col mb-5 p-1">
+            <h4 className="fw-bold text-uppercase">Available Spaces</h4>
             <div className="row justify-content-center">
-                <h4 className="fw-bold text-uppercase">Available Spaces</h4>
-                <div className="row justify-content-start">
-                            <div className="col fw-bold text-end">144</div>
-                            <div className="col ps-0 me-5 text-start">
-                                Parking Spaces
-                            </div>
-                        </div>
-                <div className="col">
-                    <p className="my-3">
-                        Checkout the flyer for more information about available
-                        space
-                    </p>
-                </div>
+                <h5>
+                    Suite 7
+                    <small className="text-muted ms-2">
+                        Residents Serviced
+                    </small>
+                </h5>
+            </div>
+            <div className="col">
+                <p className="my-3">
+                    Checkout the flyer for more information about available
+                    space
+                </p>
             </div>
 
             <div className="row my-3 justify-content-center">
@@ -50,9 +50,7 @@ function ForLease() {
             </div>
             <div className="row my-3 justify-content-center">
                 <div className={contactColTag}>
-                    <h5 className="py-1 m-1 text-uppercase">
-                        Contact
-                    </h5>
+                    <h5 className="py-1 m-1 text-uppercase">Contact</h5>
                     <div>
                         <a target="_blank" href={logicURL} rel="noreferrer">
                             <img
