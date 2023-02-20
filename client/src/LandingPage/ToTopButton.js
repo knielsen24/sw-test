@@ -3,7 +3,7 @@ import chevronUp from "../assets/Icons/chevron-up.svg";
 function ToTopButton() {
     return (
         <a
-            className="bg-white border border-secondary rounded-4 p-2"
+            className="bg-secondary bg-opacity-50 rounded-start p-1"
             id="toTopBtn"
             href="#banners-carousel"
         >

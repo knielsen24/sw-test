@@ -117,11 +117,10 @@ body {
 #toTopBtn {
     position: fixed;
     bottom: 110px;
-    right: 10px;
+    right: 0px;
     z-index: 98;
     padding: 21px;
-    opacity: .90;
-    transition: 0.9s ease-in;
+    transition: 1.5s ease-in;
 }
 
 
