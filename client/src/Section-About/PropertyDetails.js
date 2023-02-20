@@ -1,4 +1,4 @@
-import squareFtIcon from "../assets/Icons/square-feet-icon.svg";
+// import squareFtIcon from "../assets/Icons/square-feet-icon.svg";
 
 function PropertyDetails() {
     const liClassName = "bg-transparent list-group-item border border-0 ";
