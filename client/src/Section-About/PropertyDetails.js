@@ -9,9 +9,9 @@ function PropertyDetails() {
         <div className="row mx-auto my-4 align-items-center justify-content-evenly">
             <div className="col my-3 details-section-col-width">
                 <div className="mb-4">
-                    <h3 className="p-2 fw-bold text-uppercase">
+                    <h4 className="p-2 fw-bold text-uppercase">
                         Property Details
-                    </h3>
+                    </h4>
                 </div>
 
                 <ul className="list-group rounded">

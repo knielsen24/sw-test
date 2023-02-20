@@ -43,14 +43,16 @@ function BrandsContainer() {
 
     return (
         <div className="col my-4 p-1 section mx-auto">
-            <h4 className="mb-3 p-1  text-uppercase">
-                Patrons
-            </h4>
+            <h3 className="fw-bold mb-3 p-1 text-uppercase">Patrons</h3>
             <div className="row justify-content-center">
                 <div className="col">
                     <div className="row mb-2 align-items-center">
                         <div className={brandsColClassAtleier}>
-                            <a target="_blank" rel="noreferrer" href={atelierURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={atelierURL}
+                            >
                                 <img
                                     className=""
                                     src={atelierLogo}
@@ -60,7 +62,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClassDorindas}>
-                            <a target="_blank" rel="noreferrer" href={craigTeamURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={craigTeamURL}
+                            >
                                 <img
                                     className=""
                                     src={craigTeamLogo}
@@ -70,7 +76,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClassAtleier}>
-                            <a target="_blank" rel="noreferrer" href={dorindasURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={dorindasURL}
+                            >
                                 <img
                                     className=""
                                     src={dorindasLogo}
@@ -80,7 +90,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClass}>
-                            <a target="_blank" rel="noreferrer" href={entravisionURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={entravisionURL}
+                            >
                                 <img
                                     className=""
                                     src={entravisionLogo}
@@ -90,7 +104,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClass}>
-                            <a target="_blank" rel="noreferrer" href={handCraftURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={handCraftURL}
+                            >
                                 <img
                                     className=""
                                     src={handCraftLogo}
@@ -100,7 +118,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClassAtleier}>
-                            <a target="_blank" rel="noreferrer" href={liveKayaURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={liveKayaURL}
+                            >
                                 <img
                                     className=""
                                     src={liveKayaLogo}
@@ -111,7 +133,11 @@ function BrandsContainer() {
                         </div>
 
                         <div className={brandsColClass}>
-                            <a target="_blank" rel="noreferrer" href={theMillBarreURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={theMillBarreURL}
+                            >
                                 <img
                                     className=""
                                     src={theMillBarreLogo}
@@ -122,7 +148,11 @@ function BrandsContainer() {
                         </div>
 
                         <div className={brandsColClass}>
-                            <a target="_blank" rel="noreferrer" href={rideConceptsURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={rideConceptsURL}
+                            >
                                 <img
                                     className=""
                                     src={rideConceptsLogo}
@@ -132,7 +162,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClass}>
-                            <a target="_blank" rel="noreferrer" href={sierraSageURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={sierraSageURL}
+                            >
                                 <img
                                     className=""
                                     src={sierraSageLogo}
@@ -142,7 +176,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClass}>
-                            <a target="_blank" rel="noreferrer" href={terraphaseURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={terraphaseURL}
+                            >
                                 <img
                                     className=""
                                     src={terraphaseLogo}
@@ -152,7 +190,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClassDorindas}>
-                            <a target="_blank" rel="noreferrer" href={vanmarLendingURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={vanmarLendingURL}
+                            >
                                 <img
                                     className=""
                                     src={vanmarLogo}
@@ -162,7 +204,11 @@ function BrandsContainer() {
                             </a>
                         </div>
                         <div className={brandsColClass}>
-                            <a target="_blank" rel="noreferrer" href={walgreensURL}>
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href={walgreensURL}
+                            >
                                 <img
                                     className=""
                                     src={walgreensLogo}
