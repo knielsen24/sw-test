@@ -10,14 +10,13 @@ function ForLease() {
     const logicURL = "https://logiccre.com/";
 
     const contactClassPtag = " m-1 mx-2";
-    const contactColTag = "col-6 my-2 contact-col";
 
     return (
         <div
-            className="row bg-light p-2 w-auto justify-content-center "
+            className="row bg-light p-2 w-auto justify-content-evenly "
             id="for-lease"
         >
-            <div className="col my-5 p-1">
+            <div className="col my-5 p-1 details-section-col-width">
                 <h4 className="fw-bold text-uppercase">Available Spaces</h4>
                 <div className="row my-4 justify-content-center">
                     <h5 className="mb-3">
@@ -55,39 +54,35 @@ function ForLease() {
                         </a>
                     </div>
                 </div>
-                <div className="row my-3 justify-content-center">
-                    <div className={contactColTag}>
-                        <h4 className="fw-bold py-1 m-1 text-uppercase">
-                            Contact
-                        </h4>
-                        <div>
-                            <a target="_blank" href={logicURL} rel="noreferrer">
-                                <img
-                                    className="py-2"
-                                    src={logicLogo}
-                                    alt="logic-logo"
-                                    width="60px"
-                                />
-                            </a>
-                        </div>
-                        <p className={contactClassPtag}>Michael Keating</p>
-                        <p className={contactClassPtag}>
+                <div className="row my-5 p-1 details-section-col-width">
+                    <h4 className="fw-bold py-1 m-1 text-uppercase">Contact</h4>
+                    <div>
+                        <a target="_blank" href={logicURL} rel="noreferrer">
                             <img
-                                className="me-1 mb-1"
-                                src={phoneIcon}
-                                alt="phone-icon"
+                                className="py-2"
+                                src={logicLogo}
+                                alt="logic-logo"
+                                width="60px"
                             />
-                            775-386-9727
-                        </p>
-                        <p className={contactClassPtag}>
-                            <img
-                                className="me-2 mb-1"
-                                src={emailIcon}
-                                alt="email-icon"
-                            />
-                            mkeating@logicCRE.com
-                        </p>
+                        </a>
                     </div>
+                    <p className={contactClassPtag}>Michael Keating</p>
+                    <p className={contactClassPtag}>
+                        <img
+                            className="me-1 mb-1"
+                            src={phoneIcon}
+                            alt="phone-icon"
+                        />
+                        775-386-9727
+                    </p>
+                    <p className={contactClassPtag}>
+                        <img
+                            className="me-2 mb-1"
+                            src={emailIcon}
+                            alt="email-icon"
+                        />
+                        mkeating@logicCRE.com
+                    </p>
                 </div>
             </div>
         </div>
