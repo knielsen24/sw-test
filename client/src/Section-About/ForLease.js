@@ -15,7 +15,13 @@ function ForLease() {
     return (
         <div className="col mb-5 p-1">
             <div className="row justify-content-center">
-                <h4 className="fw-bold text-uppercase">Leasing availability</h4>
+                <h4 className="fw-bold text-uppercase">Available Spaces</h4>
+                <div className="row justify-content-start">
+                            <div className="col fw-bold text-end">144</div>
+                            <div className="col ps-0 me-5 text-start">
+                                Parking Spaces
+                            </div>
+                        </div>
                 <div className="col">
                     <p className="my-3">
                         Checkout the flyer for more information about available
@@ -23,6 +29,7 @@ function ForLease() {
                     </p>
                 </div>
             </div>
+
             <div className="row my-3 justify-content-center">
                 <div className="col">
                     <a

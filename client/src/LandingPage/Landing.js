@@ -4,7 +4,7 @@ import BrandsContainer from "../Section-Brands/BrandsContainer";
 import Carousel from "./Carousel";
 // import Contact from "../Section-Contact/Contact";
 import Courtyard from "../Section-Courtyard/Courtyard";
-import ForLease from "./ForLease";
+import ForLease from "../Section-About/ForLease";
 import PropertyDetails from "../Section-About/PropertyDetails";
 import PropertyMap from "../Section-About/PropertyMap";
 import ToTopButton from "./ToTopButton";

@@ -16,45 +16,52 @@ function PropertyDetails() {
 
                 <ul className="list-group rounded">
                     <li className={liClassName}>
-                        <div className="row justify-content-start">
+                        <div className="row justify-content-start ">
+                            <h5>
+                                40,852
+                                <small className="text-muted ms-2">
+                                    Square Feet on 2.30 Acres
+                                </small>
+                            </h5>
                             <div className="col-5 fw-bold text-end">
-                                <img
+                                {/* <img
                                     className="me-2 mb-1"
                                     src={squareFtIcon}
                                     width="20px"
                                     alt="square feet icon"
-                                />
-                                40,852
-                            </div>
-                            <div className="col-7 p-0 text-start">
-                                Square Feet on 2.30 Acres
+                                /> */}
                             </div>
                         </div>
                     </li>
                     <li className={liClassName}>
                         <div className="row justify-content-start">
-                            <div className="col fw-bold text-end">144</div>
-                            <div className="col ps-0 me-5 text-start">
-                                Parking Spaces
-                            </div>
+                            <h5>
+                                144
+                                <small className="text-muted ms-2">
+                                    Parking Spaces
+                                </small>
+                            </h5>
                         </div>
                     </li>
                     <li className={liClassName}>
                         <div className="row justify-content-start">
-                            <div className="col fw-bold text-end">
+                            <h5>
                                 ~ 249,817
-                            </div>
-                            <div className="col ps-0 me-5 text-start">
-                                Residents Serviced
-                            </div>
+                                <small className="text-muted ms-2">
+                                    Residents Serviced
+                                </small>
+                            </h5>
                         </div>
                     </li>
                     <li className={liClassName}>
                         <div className="row justify-content-start">
-                            <div className="col fw-bold text-end">$109,381</div>
-                            <div className="col ps-0 me-5 text-start">
-                                Average Household Income within 5-Mile Radius
-                            </div>
+                            <h5>
+                                $109,381
+                                <small className="text-muted ms-2">
+                                    Average Household Income within 5-Mile
+                                    Radius
+                                </small>
+                            </h5>
                         </div>
                     </li>
                 </ul>
