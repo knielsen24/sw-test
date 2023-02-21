@@ -174,8 +174,11 @@ body {
 }
 
 .brands-col-min-width {
-    min-width: 200px;
+    max-width: 200px;
 }
+/* .img-container {
+    min-height: 115px;
+} */
 
 .courtyard-container {
     max-width: 800px;
