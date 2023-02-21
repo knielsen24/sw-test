@@ -37,16 +37,23 @@ function BrandsContainer() {
     const sierraSageLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668061088/Southwells/logos/sierra-sage-logo_iaec0z.png";
 
-    const brandsColClass = "col mx-1 px-1 my-1 brands-col-width";
+    const brandsColClassRow1 = "col mx-2 px-2 my-3 brands-col-width";
+    const brandsColClass = "col mx-1 px-1 my-4 brands-col-width";
     const brandsRowsClass =
-        "row gx-1 my-4 align-items-center justify-content-evenly";
+        "row gx-1 align-items-center justify-content-evenly";
 
     return (
         <div className="row my-5" id="partners">
-            <h3 className="fw-bold my-3 p-1 text-uppercase">Patrons</h3>
+            <h3 className="fw-bold my-3 p-2 text-uppercase">
+                Check out the current businesses
+            </h3>
+            <h6 className="mb-5">
+                Here are some of the amazing brands Troupe has worked with so
+                far.
+            </h6>
             <div className="col mx-5 px-5">
-                <div className="row gx-1 mb-4 align-items-center justify-content-evenly">
-                    <div className={brandsColClass}>
+                <div className="row gx-1 align-items-center justify-content-evenly">
+                    <div className={brandsColClassRow1}>
                         <a target="_blank" rel="noreferrer" href={atelierURL}>
                             <img
                                 src={atelierLogo}
@@ -55,7 +62,7 @@ function BrandsContainer() {
                             />
                         </a>
                     </div>
-                    <div className={brandsColClass}>
+                    <div className={brandsColClassRow1}>
                         <a target="_blank" rel="noreferrer" href={craigTeamURL}>
                             <img
                                 src={craigTeamLogo}
@@ -64,9 +71,7 @@ function BrandsContainer() {
                             />
                         </a>
                     </div>
-                </div>
-                <div className={brandsRowsClass}>
-                    <div className={brandsColClass}>
+                    <div className={brandsColClassRow1}>
                         <a target="_blank" rel="noreferrer" href={dorindasURL}>
                             <img
                                 src={dorindasLogo}
@@ -75,6 +80,8 @@ function BrandsContainer() {
                             />
                         </a>
                     </div>
+                </div>
+                <div className={brandsRowsClass}>
                     <div className={brandsColClass}>
                         <a
                             target="_blank"
@@ -84,7 +91,7 @@ function BrandsContainer() {
                             <img
                                 src={entravisionLogo}
                                 alt="entravision tv"
-                                width="150"
+                                width="175"
                             />
                         </a>
                     </div>
@@ -93,12 +100,10 @@ function BrandsContainer() {
                             <img
                                 src={handCraftLogo}
                                 alt="hand craft coffee company "
-                                width="170"
+                                width="190"
                             />
                         </a>
                     </div>
-                </div>
-                <div className={brandsRowsClass}>
                     <div className={brandsColClass}>
                         <a target="_blank" rel="noreferrer" href={liveKayaURL}>
                             <img
@@ -108,6 +113,8 @@ function BrandsContainer() {
                             />
                         </a>
                     </div>
+                </div>
+                <div className={brandsRowsClass}>
                     <div className={brandsColClass}>
                         <a
                             target="_blank"
@@ -121,8 +128,6 @@ function BrandsContainer() {
                             />
                         </a>
                     </div>
-                </div>
-                <div className={brandsRowsClass}>
                     <div className={brandsColClass}>
                         <a
                             target="_blank"
@@ -149,6 +154,8 @@ function BrandsContainer() {
                             />
                         </a>
                     </div>
+                </div>
+                <div className={brandsRowsClass}>
                     <div className={brandsColClass}>
                         <a
                             target="_blank"
@@ -162,8 +169,6 @@ function BrandsContainer() {
                             />
                         </a>
                     </div>
-                </div>
-                <div className={brandsRowsClass}>
                     <div className={brandsColClass}>
                         <a
                             target="_blank"
