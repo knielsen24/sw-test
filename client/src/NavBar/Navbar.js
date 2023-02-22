@@ -2,7 +2,7 @@ import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 
 function Navbar() {
     const navLinksClass = "nav-item m-1";
-    const navATagClass = "nav-link pb-0 text-uppercase";
+    const navATagClass = "nav-link mt-2 py-0 text-capitalize";
 
     return (
         <div className="nav-header m-0 p-0 border-bottom shadow-sm nav-bg fixed-top ">
@@ -15,7 +15,7 @@ function Navbar() {
                         <img
                             src={southWellsLogo}
                             alt="300 South Wells Logo"
-                            width="150"
+                            width="160"
                             id="logo-name"
                         />
                     </a>
@@ -55,11 +55,11 @@ function Navbar() {
                                 </a>
                             </li>
 
-                            <li className={navLinksClass}>
+                            {/* <li className={navLinksClass}>
                                 <a className={navATagClass} href="#contact">
                                     Contact
                                 </a>
-                            </li>
+                            </li> */}
                             <li className={navLinksClass}>
                                 <a className={navATagClass} href="#partners">
                                     Patrons

@@ -1,10 +1,7 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap'); */
 
 
 html {
-    /* font-family: 'Poppins', sans-serif; */
+
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     scroll-padding-top: 55px;
@@ -13,6 +10,8 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    /* -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased; */
     position: relative;
     overflow-y: auto;
     overflow-x: hidden;
@@ -30,10 +29,6 @@ body {
 }
 
 
-.App {
-    text-align: center;
-}
-
 .main-content {
     top: 15;
     /* padding-top: 55px; */
@@ -48,10 +43,7 @@ body {
 }
 
 .navbar {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+
     top: 0;
     bottom: auto;
     transition: 0.2s ease-in;
@@ -108,12 +100,13 @@ body {
 }
 
 .nav-link {
-    color: #2f3747;
-    border-bottom: 3px solid transparent;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    border-bottom: 2.5px solid transparent;
 }
 
 .nav-link:hover {
-    border-bottom: 3px solid #2f3747;
+    border-bottom: 2.5px solid #1f4066;
     transition: 0.2s ease-in;
 }
 
