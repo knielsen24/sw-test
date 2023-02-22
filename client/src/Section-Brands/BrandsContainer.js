@@ -57,7 +57,7 @@ function BrandsContainer() {
                             <img
                                 src={atelierLogo}
                                 alt="atelier logo"
-                                width="170"
+                                width="160"
                             />
                         </a>
                     </div>
@@ -164,7 +164,7 @@ function BrandsContainer() {
                             <img
                                 src={terraphaseLogo}
                                 alt="terraphase engineering"
-                                width="160"
+                                width="180"
                             />
                         </a>
                     </div>
