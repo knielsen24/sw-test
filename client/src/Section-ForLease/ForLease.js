@@ -17,7 +17,7 @@ function ForLease() {
             id="for-lease"
         >
             <div className="col my-5 p-1 details-section-col-width">
-                <h4 className="fw-bold text-uppercase">Available Spaces</h4>
+                <h3 className="fw-bold text-capitalize">Available Spaces</h3>
                 <div className="row my-4 justify-content-center">
                     <h5 className="mb-3">
                         Suite 7
@@ -55,7 +55,7 @@ function ForLease() {
                     </div>
                 </div>
                 <div className="row my-5 p-1 details-section-col-width">
-                    <h4 className="fw-bold py-1 m-1 text-uppercase">Contact</h4>
+                    <h3 className="fw-bold py-1 m-1 text-capitalize">Contact</h3>
                     <div>
                         <a target="_blank" href={logicURL} rel="noreferrer">
                             <img

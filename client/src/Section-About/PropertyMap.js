@@ -9,18 +9,24 @@ function PropertyMap() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142310/Southwells/assets/300_S_Wells_ave_landmarks-list_th3wbe.png";
 
     return (
-        <div className="row mx-auto my-4 align-items-center justify-content-evenly">
+        <div className="row mx-auto my-5 align-items-center justify-content-evenly">
             <div className="my-4">
-                <h4 className="p-2 fw-bold text-uppercase">
+                <h4 className="p-2 fw-bold text-capitalize">
                     Strategically located in a dense and established residential
-                    / commercial area.
+                    / commercial area
                 </h4>
-                <p>Amenities within 3-miles of Radius</p>
+                <p className="text-secondary text-capitalize">
+                    Major landmarks & amenities within 3-mile radius
+                </p>
             </div>
 
             <div className="col my-4 map-section-col-width ">
                 <div className="">
-                    <img className="mb-2 w-100" src={mapURL} alt="map location" />
+                    <img
+                        className="mb-2 w-100"
+                        src={mapURL}
+                        alt="map location"
+                    />
                     <a
                         className="mt-5 btn btn-primary btn-sm text-decoration-none shadow-sm text-uppercase"
                         target="_blank"
@@ -36,10 +42,7 @@ function PropertyMap() {
                     className="ps-3 w-100 highlight-image-width"
                     src={landmarksListURL}
                     alt="major land marks"
-                    // height="500"
                 />
-                {/* <div className="ms-1 ps-4 p-3">
-                </div> */}
             </div>
         </div>
     );

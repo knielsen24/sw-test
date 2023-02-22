@@ -44,13 +44,12 @@ function BrandsContainer() {
 
     return (
         <div className="row my-5" id="partners">
-            <h3 className="fw-bold my-3 p-2 text-uppercase">
-                Check out the current businesses
+            {/* <h3 className="fw-bold my-3 p-2 text-uppercase">
+                Home of the finest businesses in Reno
+            </h3> */}
+            <h3 className="fw-bold mb-5">
+                Businesses we’ve partnered with
             </h3>
-            <h6 className="mb-5">
-                Here are some of the amazing brands Troupe has worked with so
-                far.
-            </h6>
             <div className="col mx-5 px-5">
                 <div className="row gx-1 align-items-center justify-content-evenly">
                     <div className={brandsColClassRow1}>
@@ -58,7 +57,7 @@ function BrandsContainer() {
                             <img
                                 src={atelierLogo}
                                 alt="atelier logo"
-                                width="140"
+                                width="170"
                             />
                         </a>
                     </div>
@@ -67,7 +66,7 @@ function BrandsContainer() {
                             <img
                                 src={craigTeamLogo}
                                 alt="craig team realty exp realty"
-                                width="150"
+                                width="180"
                             />
                         </a>
                     </div>
@@ -76,7 +75,7 @@ function BrandsContainer() {
                             <img
                                 src={dorindasLogo}
                                 alt="dorinda's chocolates logo"
-                                width="150"
+                                width="160"
                             />
                         </a>
                     </div>
@@ -124,7 +123,7 @@ function BrandsContainer() {
                             <img
                                 src={theMillBarreLogo}
                                 alt="the mill barre + pilates"
-                                width="160"
+                                width="190"
                             />
                         </a>
                     </div>
@@ -137,7 +136,7 @@ function BrandsContainer() {
                             <img
                                 src={rideConceptsLogo}
                                 alt="ride concepts"
-                                width="160"
+                                width="180"
                             />
                         </a>
                     </div>
@@ -178,7 +177,7 @@ function BrandsContainer() {
                             <img
                                 src={vanmarLogo}
                                 alt="vanmar lending"
-                                width="160"
+                                width="180"
                             />
                         </a>
                     </div>
@@ -187,7 +186,7 @@ function BrandsContainer() {
                             <img
                                 src={walgreensLogo}
                                 alt="walgreens pharmancy"
-                                width="150"
+                                width="170"
                             />
                         </a>
                     </div>

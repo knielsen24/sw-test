@@ -25,7 +25,7 @@ function Carousel() {
                 >
                     <div className="carousel-inner">
                         <div
-                            className="carousel-item active "
+                            className="carousel-item active"
                             data-bs-interval="20000"
                         >
                             <img

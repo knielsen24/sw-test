@@ -9,15 +9,15 @@ function PropertyDetails() {
         <div className="row mx-auto my-4 align-items-center justify-content-evenly">
             <div className="col my-3 details-section-col-width">
                 <div className="mb-4">
-                    <h4 className="p-2 fw-bold text-uppercase">
+                    <h3 className="p-2 fw-bold text-capitalize">
                         Property Details
-                    </h4>
+                    </h3>
                 </div>
 
                 <ul className="list-group rounded">
                     <li className={liClassName}>
-                        <div className="row justify-content-start">
-                            <h5>
+                        <div className="row">
+                            <h5 className="float-start">
                                 ~249,817
                                 <small className="text-muted ms-2">
                                     Residents Serviced
