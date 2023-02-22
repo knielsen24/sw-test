@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap'); */
+
 
 html {
-    font-family: "Lato", sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     scroll-padding-top: 55px;
@@ -10,6 +12,7 @@ html {
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     position: relative;
     overflow-y: auto;
     overflow-x: hidden;

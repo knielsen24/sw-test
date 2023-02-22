@@ -16,9 +16,9 @@ function Courtyard() {
         >
             <div className="col section mx-auto my-3 justify-content-center p-2">
                 <div className="my-4">
-                    <h4 className="p-2 fw-bold text-uppercase">
+                    <h3 className="p-2 fw-bold text-capitalize">
                         The Courtyard
-                    </h4>
+                    </h3>
                     <p>An intimate event venue perfect for your party</p>
                 </div>
 

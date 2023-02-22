@@ -10,19 +10,19 @@ function PropertyCards() {
             image: bricksIcon,
             alt: "brick icon",
             header: "redeveloped",
-            text: `multi-tenant mixed-use commercial property`,
+            text: "Multi-tenant mixed-use commercial property",
         },
         {
             image: hospitalIcon,
             alt: "hospital icon",
             header: "Close proximity",
-            text: "to Renown Regional Medical Center & Downtown Reno",
+            text: "To Renown Regional Medical Center & Downtown Reno",
         },
         {
             image: shopIcon,
             alt: "tools icon",
             header: "Zoned for use",
-            text: "retail, office, and medical",
+            text: "Retail, office, and medical",
         },
         {
             image: sunIcon,
@@ -34,18 +34,18 @@ function PropertyCards() {
             image: carIcon,
             alt: "car icon",
             header: "Easy access ",
-            text: "to I-80 via S. Wells Ave. or I-580 via Mill St",
+            text: "To I-80 via S. Wells Ave. or I-580 via Mill St",
         },
     ];
 
     const renderCards = highlightsData.map((card) => {
         return (
-            <div className="col m-2 p-3 prop-highlights bg-white rounded-4 shadow">
+            <div className="col m-2 p-2 prop-highlights bg-white rounded-4 shadow">
                 <div className="m-3">
                     <img src={card.image} width="30px" alt={card.alt} />
                 </div>
                 <p className="text-capitalize fw-bold my-2">{card.header}</p>
-                <p className="text-capitalize mb-0">{card.text}</p>
+                <p className="mb-0">{card.text}</p>
             </div>
         );
     });
