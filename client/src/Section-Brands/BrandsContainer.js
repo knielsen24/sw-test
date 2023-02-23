@@ -50,7 +50,7 @@ function BrandsContainer() {
             <h3 className="fw-bold p-3 mb-5">
                 Businesses we’ve partnered with
             </h3>
-            <div className="col mx-5 px-5">
+            <div className="col mx-auto px-5 brands-container-width">
                 <div className="row gx-1 align-items-center justify-content-evenly">
                     <div className={brandsColClassRow1}>
                         <a target="_blank" rel="noreferrer" href={atelierURL}>

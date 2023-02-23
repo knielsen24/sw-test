@@ -178,6 +178,10 @@ body {
     max-width: 600px;
 }
 
+.brands-container-width {
+    max-width: 1400px;
+}
+
 .details-section-col-width {
     min-width: 300px;
     max-width: 550px;
