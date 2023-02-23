@@ -9,7 +9,7 @@ function PropertyMap() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142310/Southwells/assets/300_S_Wells_ave_landmarks-list_th3wbe.png";
 
     return (
-        <div className="row mx-auto my-5 align-items-center justify-content-evenly">
+        <div className="row mx-auto p-4 my-5 align-items-center justify-content-evenly">
             <div className="my-4">
                 <h4 className="p-2 fw-bold text-capitalize">
                     Strategically located in a dense and established residential
@@ -21,7 +21,7 @@ function PropertyMap() {
             </div>
 
             <div className="col my-4 map-section-col-width ">
-                <div className="">
+                <div className="px-4">
                     <img
                         className="mb-2 w-100"
                         src={mapURL}
@@ -38,11 +38,13 @@ function PropertyMap() {
                 </div>
             </div>
             <div className="col my-4 map-section-col-width">
-                <img
-                    className="ps-3 w-100 highlight-image-width"
-                    src={landmarksListURL}
-                    alt="major land marks"
-                />
+                <div className="px-5">
+                    <img
+                        className="w-100 highlight-image-width"
+                        src={landmarksListURL}
+                        alt="major land marks"
+                    />
+                </div>
             </div>
         </div>
     );
