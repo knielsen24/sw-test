@@ -45,7 +45,7 @@ function PropertyCards() {
                     <img src={card.image} width="30px" alt={card.alt} />
                 </div>
                 <p className="text-capitalize fw-bold my-2">{card.header}</p>
-                <p className="mb-0">{card.text}</p>
+                <p className="mb-0 text-muted">{card.text}</p>
             </div>
         );
     });

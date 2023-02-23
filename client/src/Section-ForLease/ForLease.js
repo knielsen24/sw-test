@@ -54,9 +54,11 @@ function ForLease() {
                         </a>
                     </div>
                 </div>
-                <div className="row my-5 p-1 details-section-col-width">
-                    <h3 className="fw-bold py-1 m-1 text-capitalize">Contact</h3>
-                    <div>
+                <div className="row my-5 p-1 justify-content-center details-section-col-width">
+                    <div className="col">
+                        <h3 className="fw-bold py-1 m-1 text-capitalize">
+                            Contact
+                        </h3>
                         <a target="_blank" href={logicURL} rel="noreferrer">
                             <img
                                 className="py-2"
@@ -65,24 +67,24 @@ function ForLease() {
                                 width="60px"
                             />
                         </a>
+                        <p className={contactClassPtag}>Michael Keating</p>
+                        <p className={contactClassPtag}>
+                            <img
+                                className="me-1 mb-1"
+                                src={phoneIcon}
+                                alt="phone-icon"
+                            />
+                            775-386-9727
+                        </p>
+                        <p className={contactClassPtag}>
+                            <img
+                                className="me-2 mb-1"
+                                src={emailIcon}
+                                alt="email-icon"
+                            />
+                            mkeating@logicCRE.com
+                        </p>
                     </div>
-                    <p className={contactClassPtag}>Michael Keating</p>
-                    <p className={contactClassPtag}>
-                        <img
-                            className="me-1 mb-1"
-                            src={phoneIcon}
-                            alt="phone-icon"
-                        />
-                        775-386-9727
-                    </p>
-                    <p className={contactClassPtag}>
-                        <img
-                            className="me-2 mb-1"
-                            src={emailIcon}
-                            alt="email-icon"
-                        />
-                        mkeating@logicCRE.com
-                    </p>
                 </div>
             </div>
         </div>

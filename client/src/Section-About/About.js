@@ -9,7 +9,7 @@ function About() {
             <div className="col section mx-auto my-2 justify-content-center p-4">
                 <div className="row">
                     {" "}
-                    <h3 className="mb-4 fw-bold text-capitalize ">
+                    <h3 className="mb-5 fw-bold text-capitalize ">
                         Property highlights
                     </h3>
                 </div>
