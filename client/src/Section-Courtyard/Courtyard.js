@@ -11,7 +11,7 @@ function Courtyard() {
 
     return (
         <div
-            className="row mb-4 py-5 w-auto justify-content-center"
+            className="row mb-3 py-5 w-auto justify-content-center"
             id="courtyard"
         >
             <div className="col section mx-auto my-3 justify-content-center p-2">

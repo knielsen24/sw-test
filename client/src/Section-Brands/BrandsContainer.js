@@ -40,14 +40,14 @@ function BrandsContainer() {
     const brandsColClassRow1 = "col mx-2 px-2 my-3 brands-col-width";
     const brandsColClass = "col mx-1 px-1 my-4 brands-col-width";
     const brandsRowsClass =
-        "row gx-1 align-items-center justify-content-evenly";
+        "row my-3 gx-1 align-items-center justify-content-evenly";
 
     return (
         <div className="row my-5" id="partners">
             {/* <h3 className="fw-bold my-3 p-2 text-uppercase">
                 Home of the finest businesses in Reno
             </h3> */}
-            <h3 className="fw-bold mb-5">
+            <h3 className="fw-bold p-3 mb-5">
                 Businesses we’ve partnered with
             </h3>
             <div className="col mx-5 px-5">

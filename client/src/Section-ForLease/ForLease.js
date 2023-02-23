@@ -13,12 +13,12 @@ function ForLease() {
 
     return (
         <div
-            className="row bg-light p-2 w-auto justify-content-evenly "
+            className="row p-5 w-auto bg-light justify-content-evenly "
             id="for-lease"
         >
             <div className="col my-5 p-1 details-section-col-width">
-                <h3 className="fw-bold text-capitalize">Available Spaces</h3>
-                <div className="row my-4 justify-content-center">
+                <h3 className="fw-bold pb-1 text-capitalize">Available Spaces</h3>
+                <div className="row my-5 justify-content-center">
                     <h5 className="mb-3">
                         Suite 7
                         <small className="text-muted ms-2">- 2,222 SF</small>
@@ -28,14 +28,10 @@ function ForLease() {
                         <small className="text-muted ms-2">- 3,950 SF</small>
                     </h5>
                 </div>
-
-                <div className="col">
-                    <p className="my-3">
-                        Checkout the flyer for more information about the
-                        available spaces
-                    </p>
-                </div>
-
+                <p className="my-1">
+                    Checkout the flyer for more information about the available
+                    spaces
+                </p>
                 <div className="row my-5 justify-content-center">
                     <div className="col">
                         <a
@@ -54,6 +50,7 @@ function ForLease() {
                         </a>
                     </div>
                 </div>
+                <hr></hr>
                 <div className="row my-5 p-1 justify-content-center details-section-col-width">
                     <div className="col">
                         <h3 className="fw-bold py-1 m-1 text-capitalize">
