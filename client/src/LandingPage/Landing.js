@@ -35,6 +35,7 @@ function Landing() {
             </div>
             <ForLease />
             <Courtyard />
+            <hr className="hr-line-width mx-auto p-3" />
             <BrandsContainer />
             {toTopButton ? <ToTopButton /> : null}
         </div>

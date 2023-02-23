@@ -11,7 +11,7 @@ function Courtyard() {
 
     return (
         <div
-            className="row mb-4 p-2 w-auto justify-content-center mint-bg"
+            className="row mb-4 py-5 w-auto justify-content-center"
             id="courtyard"
         >
             <div className="col section mx-auto my-3 justify-content-center p-2">
@@ -31,30 +31,14 @@ function Courtyard() {
                                 alt="courtyard"
                             />
                         </div>
-                        {/* <div className=" mint-bg ">
-                        <a
-                            href="#contact"
-                            className="btn btn-sm btn-primary shadow-sm text-uppercase"
-                        >
-                            Contact Info
-                        </a>
-                        <p className="">More info coming soon</p>
-                    </div> */}
                     </div>
                 </div>
                 <div className="row mt-3">
                     <div className="col">
-                        <h5 className="py-1 m-1 text-decoration-underline text-uppercase">
-                            Contact Information
-                        </h5>
-                        <div>
-                            <img
-                                className="py-2"
-                                src={nielsenLogo}
-                                alt="nielsen-logo"
-                                width="250px"
-                            />
-                        </div>
+                        <h4 className="py-3 m-1  fw-bold text-capitalize">
+                            Reserve the space today
+                        </h4>
+
                         <p className={contactClassPtag}>
                             <img
                                 className="me-1 mb-1"
@@ -71,6 +55,14 @@ function Courtyard() {
                             />
                             Info@300SouthWells.com
                         </p>
+                        <div className="p-3 mt-3">
+                            <img
+                                className="py-2"
+                                src={nielsenLogo}
+                                alt="nielsen-logo"
+                                width="250px"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
