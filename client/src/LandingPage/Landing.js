@@ -8,6 +8,7 @@ import ForLease from "../Section-ForLease/ForLease";
 import PropertyDetails from "../Section-About/PropertyDetails";
 import PropertyMap from "../Section-About/PropertyMap";
 import ToTopButton from "./ToTopButton";
+import HeroImage from "./HeroImage";
 
 function Landing() {
     const [toTopButton, setToTopButton] = useState(false);
@@ -24,7 +25,8 @@ function Landing() {
 
     return (
         <div className="container-fluid m-auto text-center main-content">
-            <Carousel />
+            <HeroImage />
+            {/* <Carousel /> */}
             <About />
             <div className="row p-2 mt-0 w-auto justify-content-center">
                 <PropertyMap />
