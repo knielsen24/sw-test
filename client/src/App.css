@@ -45,7 +45,7 @@ body {
 }
 
 .section {
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .list-width {
@@ -132,8 +132,8 @@ body {
 
 .prop-highlights {
     min-width: 200px;
-    max-width: 200px;
-    height: 200px;
+    max-width: 275px;
+    /* height: 200px; */
 }
 
 .highlight-image-width {

@@ -21,7 +21,7 @@ function PropertyMap() {
             </div>
 
             <div className="col my-4 map-section-col-width ">
-                <div className="px-4">
+                <div>
                     <img
                         className="mb-2 w-100"
                         src={mapURL}
@@ -38,9 +38,9 @@ function PropertyMap() {
                 </div>
             </div>
             <div className="col my-4 map-section-col-width">
-                <div className="px-5">
+                <div className="px-4 ">
                     <img
-                        className="w-100 highlight-image-width"
+                        className="w-100"
                         src={landmarksListURL}
                         alt="major land marks"
                     />

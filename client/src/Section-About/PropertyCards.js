@@ -22,13 +22,13 @@ function PropertyCards() {
             image: shopIcon,
             alt: "tools icon",
             header: "Zoned for use",
-            text: "Retail, office, and medical",
+            text: "Retail, office, or medical based on business needs",
         },
         {
             image: sunIcon,
             alt: "sun icon",
             header: "outdoor courtyard ",
-            text: "Common area outdoor courtyard with attractive amenities",
+            text: "Common area courtyard with attractive amenities",
         },
         {
             image: carIcon,
@@ -40,8 +40,8 @@ function PropertyCards() {
 
     const renderCards = highlightsData.map((card) => {
         return (
-            <div className="col m-2 p-2 prop-highlights bg-white rounded-4 shadow">
-                <div className="m-3">
+            <div className="col m-2 py-4 px-1 prop-highlights bg-white rounded-4 shadow">
+                <div className="pb-2">
                     <img src={card.image} width="30px" alt={card.alt} />
                 </div>
                 <p className="text-capitalize fw-bold my-2">{card.header}</p>
