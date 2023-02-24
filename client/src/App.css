@@ -33,8 +33,9 @@ body {
 .hero-container {
     height: 75vh;
     font-weight: 800;
+
     background-image: url("https://res.cloudinary.com/dooa4lvvv/image/upload/v1668028243/Southwells/Landing%20%28Carousel%29/sw-main-1-wide_rker0b.jpg");
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 

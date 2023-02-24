@@ -3,7 +3,7 @@ import React from "react";
 function HeroImage() {
     return (
         <div className="row hero-container justify-content-center align-items-start">
-            <div className="col hero-header pt-3">
+            <div className="col hero-header pt-2">
                 <h1 className="display-6 mt-2 mx-auto px-5 py-4 fw-bold rounded text-white">
                     Comercial Real Estate Property
                     <h4 className="pt-3 text-muted">Near Downtown Reno</h4>
