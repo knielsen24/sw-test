@@ -1,7 +1,7 @@
 import { useState } from "react";
 import About from "../Section-About/About";
 import BrandsContainer from "../Section-Brands/BrandsContainer";
-import Carousel from "./Carousel";
+
 // import Contact from "../Section-Contact/Contact";
 import Courtyard from "../Section-Courtyard/Courtyard";
 import ForLease from "../Section-ForLease/ForLease";
@@ -24,9 +24,8 @@ function Landing() {
     window.addEventListener("scroll", showButton);
 
     return (
-        <div className="container-fluid m-auto text-center main-content">
+        <div className="container-fluid m-auto text-center main-content" id="top-page">
             <HeroImage />
-            {/* <Carousel /> */}
             <About />
             <div className="row p-2 mt-0 w-auto justify-content-center">
                 <PropertyMap />

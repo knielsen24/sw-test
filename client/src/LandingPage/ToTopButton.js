@@ -5,7 +5,7 @@ function ToTopButton() {
         <a
             className="bg-secondary bg-opacity-50 rounded-start p-1"
             id="toTopBtn"
-            href="#banners-carousel"
+            href="#top-page"
         >
             <img
                 className="p-0 m-0"
