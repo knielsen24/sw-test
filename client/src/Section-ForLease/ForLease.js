@@ -16,9 +16,11 @@ function ForLease() {
             className="row p-5 w-auto bg-light justify-content-evenly "
             id="for-lease"
         >
-            <div className="col my-5 p-1 details-section-col-width">
-                <h3 className="fw-bold pb-1 text-capitalize">Available Spaces</h3>
-                <div className="row my-5 justify-content-center">
+            <div className="col mb-5 pt-4 details-section-col-width">
+                <h3 className="fw-bold pb-1 text-capitalize">
+                    Available Spaces
+                </h3>
+                <div className="row my-4 justify-content-center">
                     <h5 className="mb-3">
                         Suite 7
                         <small className="text-muted ms-2">- 2,222 SF</small>
@@ -32,7 +34,7 @@ function ForLease() {
                     Checkout the flyer for more information about the available
                     spaces
                 </p>
-                <div className="row my-5 justify-content-center">
+                <div className="row py-3 mb-5 justify-content-center">
                     <div className="col">
                         <a
                             className="btn btn-primary btn-sm text-decoration-none text-uppercase shadow-sm"
@@ -51,11 +53,14 @@ function ForLease() {
                     </div>
                 </div>
                 <hr></hr>
-                <div className="row my-5 p-1 justify-content-center details-section-col-width">
+                <div className="row mt-5 p-1 justify-content-center details-section-col-width">
                     <div className="col">
                         <h3 className="fw-bold py-1 m-1 text-capitalize">
                             Contact
                         </h3>
+                        <p className="py-3">
+                            For leasing availibility contact LogicCRE
+                        </p>
                         <a target="_blank" href={logicURL} rel="noreferrer">
                             <img
                                 className="py-2"
