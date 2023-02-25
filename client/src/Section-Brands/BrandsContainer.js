@@ -37,8 +37,8 @@ function BrandsContainer() {
     const sierraSageLogo =
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668061088/Southwells/logos/sierra-sage-logo_iaec0z.png";
 
-    const brandsColClassRow1 = "col mx-2 px-2 my-3 brands-col-width";
-    const brandsColClass = "col mx-1 px-1 my-4 brands-col-width";
+    const brandsColClassRow1 = "col mx-3 px-2 my-3 brands-col-width";
+    const brandsColClass = "col mx-3 px-1 my-4 brands-col-width";
     const brandsRowsClass =
         "row my-3 gx-1 align-items-center justify-content-evenly";
 
@@ -190,8 +190,8 @@ function BrandsContainer() {
                             />
                         </a>
                     </div>
-                    <div className="p-3"></div>
                 </div>
+                <div className="p-3"></div>
             </div>
         </div>
     );
