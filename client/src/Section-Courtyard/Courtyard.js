@@ -15,10 +15,10 @@ function Courtyard() {
             id="courtyard"
         >
             <div className="col section mx-auto my-3 justify-content-center p-2">
-                <div className="my-4">
-                    <h3 className="p-2 fw-bold text-capitalize">
+                <div className="py-4">
+                    <h2 className="py-3 fw-bold text-capitalize">
                         The Courtyard
-                    </h3>
+                    </h2>
                     <p>An intimate event venue perfect for your party</p>
                 </div>
 
@@ -35,7 +35,7 @@ function Courtyard() {
                 </div>
                 <div className="row mt-3">
                     <div className="col">
-                        <h4 className="py-3 m-1  fw-bold text-capitalize">
+                        <h4 className="py-4 m-1  fw-bold text-capitalize">
                             Reserve the space today
                         </h4>
 
