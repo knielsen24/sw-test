@@ -7,7 +7,7 @@ function PropertyDetails() {
 
     return (
         <div className="row mx-auto my-4 align-items-center justify-content-evenly">
-            <div className="col my-3 details-section-col-width">
+            <div className="col py-5 mx-2 details-section-col-width">
                 <div className="mb-4">
                     <h3 className="p-2 fw-bold text-capitalize">
                         Property Details
@@ -66,7 +66,7 @@ function PropertyDetails() {
                     </li>
                 </ul>
             </div>
-            <div className="col my-5 map-section-col-width">
+            <div className="col py-5 mx-2 map-section-col-width">
                 <img
                     className="rounded-4 d-block w-100 ps-3"
                     src={floorPlanURL}
