@@ -1,3 +1,4 @@
+import Carousel from "./Carousel";
 import PropertyCards from "./PropertyCards";
 
 function About() {
@@ -16,6 +17,9 @@ function About() {
 
                 <div className="row pb-2">
                     <PropertyCards />
+                </div>
+                <div className="row">
+                    {/* <Carousel /> */}
                 </div>
             </div>
         </div>

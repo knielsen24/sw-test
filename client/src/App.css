@@ -132,8 +132,13 @@ body {
 .prop-highlights {
     min-width: 250px;
     max-width: 250px;
-    /* height: 200px; */
+    transition: transform 250ms;
 }
+
+.prop-highlights:hover{
+    transform: translate(0, -10px);
+}
+
 
 .highlight-image-width {
     max-width: 400px;
@@ -178,4 +183,8 @@ body {
 .details-section-col-width {
     min-width: 300px;
     max-width: 550px;
+}
+
+.carousel-container {
+    max-width: 800px;
 }
