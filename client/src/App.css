@@ -136,7 +136,7 @@ body {
 }
 
 .prop-highlights:hover{
-    transform: translate(0, -10px);
+    transform: translate(0, -15px);
 }
 
 
@@ -196,4 +196,12 @@ body {
 
 .img-brands-logos:hover{
     transform: scale(1.2);
+}
+
+.img-map-logos {
+    transition: transform 250ms;
+}
+
+.img-map-logos:hover{
+    transform: scale(1.1);
 }
