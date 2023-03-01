@@ -23,7 +23,7 @@ function PropertyMap() {
             <div className="col my-4 map-section-col-width ">
                 <div>
                     <img
-                        className="mb-2 w-100"
+                        className="mb-2 w-100 img-brands-logos"
                         src={mapURL}
                         alt="map location"
                     />

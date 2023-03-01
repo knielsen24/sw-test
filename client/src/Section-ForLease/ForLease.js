@@ -63,13 +63,13 @@ function ForLease() {
                         </p>
                         <a target="_blank" href={logicURL} rel="noreferrer">
                             <img
-                                className=" img-brands-logos border rounded-2"
+                                className="img-brands-logos border rounded-2"
                                 src={logicLogo}
                                 alt="logic-logo"
                                 width="100px"
                             />
                         </a>
-                        <p className={contactClassPtag}>Michael Keating</p>
+                        <p className="pt-4 pb-1 m-1 mx-2">Michael Keating</p>
                         <p className={contactClassPtag}>
                             <img
                                 className="me-1 mb-1"

@@ -68,7 +68,7 @@ function PropertyDetails() {
             </div>
             <div className="col py-5 mx-2 map-section-col-width">
                 <img
-                    className="rounded-4 d-block w-100 ps-3"
+                    className="rounded-4 d-block w-100 ps-3 img-brands-logos"
                     src={floorPlanURL}
                     alt="map location"
                     width="400"
