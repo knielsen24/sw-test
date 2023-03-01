@@ -31,16 +31,18 @@ body {
 }
 
 .hero-container {
-    height: 80vh;
+    height: 75vh;
     font-weight: 800;
-    background-image: url("https://res.cloudinary.com/dooa4lvvv/image/upload/v1677642996/Southwells/Landing%20%28Carousel%29/sw-main-1-wide_rker0b.jpg");
+    background-image: url("https://res.cloudinary.com/dooa4lvvv/image/upload/v1677642996/Southwells/Landing%20%28Carousel%29/sw-main-1-wide_rker0b.jpg"),
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
     background-position: bottom;
     background-size: cover;
+    background-blend-mode: overlay;
 }
 
 .hero-header {
     max-width: max-content;
-    text-shadow: 1px 1px 2px #000000;
+    /* text-shadow: 1px 1px 5px #000000; */
 }
 
 .section {
@@ -135,10 +137,9 @@ body {
     transition: transform 250ms;
 }
 
-.prop-highlights:hover{
+.prop-highlights:hover {
     transform: translate(0, -15px);
 }
-
 
 .highlight-image-width {
     max-width: 400px;
@@ -189,12 +190,11 @@ body {
     max-width: 800px;
 }
 
-
 .img-brands-logos {
     transition: transform 250ms;
 }
 
-.img-brands-logos:hover{
+.img-brands-logos:hover {
     transform: scale(1.2);
 }
 
@@ -202,6 +202,6 @@ body {
     transition: transform 250ms;
 }
 
-.img-map-logos:hover{
+.img-map-logos:hover {
     transform: scale(1.1);
 }

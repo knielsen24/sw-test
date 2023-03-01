@@ -2,12 +2,12 @@ import React from "react";
 
 function HeroImage() {
     return (
-        <div className="row hero-container justify-content-center align-items-start">
-            <div className="col pt-2">
-                <h1 className="hero-header display-6 mt-2 mx-auto px-2 pt-5 fw-bold rounded text-white">
+        <div className="row hero-container justify-content-center align-items-center">
+            <div className="col pb-4">
+                <h1 className="hero-header display-4 mt-2 mx-auto px-2 pb-2 fw-bold rounded text-white">
                     Comercial Real Estate Property
                 </h1>
-                <h3 className="pt-2 text-muted">Downtown Reno</h3>
+                <h2 className="pt-2 text-white">Downtown Reno</h2>
             </div>
         </div>
     );
