@@ -1,4 +1,3 @@
-import Carousel from "./Carousel";
 import PropertyCards from "./PropertyCards";
 
 function About() {
@@ -19,7 +18,6 @@ function About() {
                     <PropertyCards />
                 </div>
                 <div className="row">
-                    {/* <Carousel /> */}
                 </div>
             </div>
         </div>
