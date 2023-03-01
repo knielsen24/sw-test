@@ -9,7 +9,7 @@ function ForLease() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1667953762/Southwells/logos/logic-logo_u7tz6o.png";
     const logicURL = "https://logiccre.com/";
 
-    const contactClassPtag = " m-1 mx-2";
+    const contactClassPtag = "py-1 m-1 mx-2";
 
     return (
         <div
@@ -63,10 +63,10 @@ function ForLease() {
                         </p>
                         <a target="_blank" href={logicURL} rel="noreferrer">
                             <img
-                                className="py-2"
+                                className=" img-brands-logos border rounded-2"
                                 src={logicLogo}
                                 alt="logic-logo"
-                                width="60px"
+                                width="100px"
                             />
                         </a>
                         <p className={contactClassPtag}>Michael Keating</p>
