@@ -55,6 +55,7 @@ function BrandsContainer() {
                     <div className={brandsColClassRow1}>
                         <a target="_blank" rel="noreferrer" href={atelierURL}>
                             <img
+                                className="img-brands-logos"
                                 src={atelierLogo}
                                 alt="atelier logo"
                                 width="160"
@@ -64,6 +65,7 @@ function BrandsContainer() {
                     <div className={brandsColClassRow1}>
                         <a target="_blank" rel="noreferrer" href={craigTeamURL}>
                             <img
+                                className="img-brands-logos"
                                 src={craigTeamLogo}
                                 alt="craig team realty exp realty"
                                 width="180"
@@ -73,6 +75,7 @@ function BrandsContainer() {
                     <div className={brandsColClassRow1}>
                         <a target="_blank" rel="noreferrer" href={dorindasURL}>
                             <img
+                                className="img-brands-logos"
                                 src={dorindasLogo}
                                 alt="dorinda's chocolates logo"
                                 width="160"
@@ -88,6 +91,7 @@ function BrandsContainer() {
                             href={entravisionURL}
                         >
                             <img
+                                className="img-brands-logos"
                                 src={entravisionLogo}
                                 alt="entravision tv"
                                 width="175"
@@ -97,6 +101,7 @@ function BrandsContainer() {
                     <div className={brandsColClass}>
                         <a target="_blank" rel="noreferrer" href={handCraftURL}>
                             <img
+                                className="img-brands-logos"
                                 src={handCraftLogo}
                                 alt="hand craft coffee company "
                                 width="190"
@@ -106,6 +111,7 @@ function BrandsContainer() {
                     <div className={brandsColClass}>
                         <a target="_blank" rel="noreferrer" href={liveKayaURL}>
                             <img
+                                className="img-brands-logos"
                                 src={liveKayaLogo}
                                 alt="live kaya"
                                 width="175"
@@ -121,6 +127,7 @@ function BrandsContainer() {
                             href={theMillBarreURL}
                         >
                             <img
+                                className="img-brands-logos"
                                 src={theMillBarreLogo}
                                 alt="the mill barre + pilates"
                                 width="190"
@@ -134,6 +141,7 @@ function BrandsContainer() {
                             href={rideConceptsURL}
                         >
                             <img
+                                className="img-brands-logos"
                                 src={rideConceptsLogo}
                                 alt="ride concepts"
                                 width="180"
@@ -147,6 +155,7 @@ function BrandsContainer() {
                             href={sierraSageURL}
                         >
                             <img
+                                className="img-brands-logos"
                                 src={sierraSageLogo}
                                 alt="sierra & sage hair extensions"
                                 width="175"
@@ -162,6 +171,7 @@ function BrandsContainer() {
                             href={terraphaseURL}
                         >
                             <img
+                                className="img-brands-logos"
                                 src={terraphaseLogo}
                                 alt="terraphase engineering"
                                 width="180"
@@ -175,6 +185,7 @@ function BrandsContainer() {
                             href={vanmarLendingURL}
                         >
                             <img
+                                className="img-brands-logos"
                                 src={vanmarLogo}
                                 alt="vanmar lending"
                                 width="180"
@@ -184,6 +195,7 @@ function BrandsContainer() {
                     <div className={brandsColClass}>
                         <a target="_blank" rel="noreferrer" href={walgreensURL}>
                             <img
+                                className="img-brands-logos"
                                 src={walgreensLogo}
                                 alt="walgreens pharmancy"
                                 width="170"

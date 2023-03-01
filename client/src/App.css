@@ -188,3 +188,12 @@ body {
 .carousel-container {
     max-width: 800px;
 }
+
+
+.img-brands-logos {
+    transition: transform 250ms;
+}
+
+.img-brands-logos:hover{
+    transform: scale(1.2);
+}
