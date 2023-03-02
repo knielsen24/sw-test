@@ -51,8 +51,11 @@ function PropertyCards() {
     });
 
     return (
+        <div className="row pb-2">
+
         <div className="col">
             <div className="row justify-content-center">{renderCards}</div>
+        </div>
         </div>
     );
 }

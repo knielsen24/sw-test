@@ -13,7 +13,7 @@ function ForLease() {
 
     return (
         <div
-            className="row p-5 w-auto bg-light justify-content-evenly "
+            className="row py-5 w-auto bg-light justify-content-evenly "
             id="for-lease"
         >
             <div className="col mb-5 pt-4 details-section-col-width">

@@ -6,7 +6,7 @@ function PropertyDetails() {
         "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001731/Southwells/assets/300_S_Wells_ave_Building_Layout-med_iysjzq.png";
 
     return (
-        <div className="row mx-auto my-4 align-items-center justify-content-evenly">
+        <div className="row mx-auto my-5 align-items-center justify-content-evenly">
             <div className="col py-5 mx-2 details-section-col-width">
                 <div className="mb-4">
                     <h3 className="p-2 fw-bold text-capitalize">
