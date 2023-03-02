@@ -41,7 +41,7 @@ function Courtyard() {
 
                         <p className={contactClassPtag}>
                             <img
-                                className="me-1 mb-1"
+                                className="me-2 pb-1"
                                 src={phoneIcon}
                                 alt="phone-icon"
                             />
@@ -49,7 +49,7 @@ function Courtyard() {
                         </p>
                         <p className={contactClassPtag}>
                             <img
-                                className="me-2 mb-1"
+                                className="me-2 pb-1"
                                 src={emailIcon}
                                 alt="email-icon"
                             />

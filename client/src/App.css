@@ -149,15 +149,15 @@ body {
     z-index: 95;
 }
 
-.hr-line-width {
-    max-width: 1200px;
+.hr-line {
+    max-width: 1400px;
 }
 
 /* Map Section */
 
 .map-section-col-width {
     min-width: 300px;
-    max-width: 450px;
+    max-width: 500px;
 }
 
 .highlight-image-width {

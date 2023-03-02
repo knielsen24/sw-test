@@ -22,16 +22,17 @@ function Landing() {
     window.addEventListener("scroll", showButton);
 
     return (
-        <div className="container-fluid m-auto text-center main-content" id="top-page">
+        <div
+            className="container-fluid m-auto text-center main-content"
+            id="top-page"
+        >
             <HeroImage />
             <About />
-            <div className="row p-2 mt-0 w-auto justify-content-center">
-                <PropertyMap />
-                <hr className="hr-line-width my-2" />
-                <div className="mb-1">
-                    <PropertyDetails />
-                </div>
+            <PropertyMap />
+            <div className="row mx-auto px-3 hr-line justify-content-center">
+                <hr className="my-3" />
             </div>
+            <PropertyDetails />
             <ForLease />
             <Courtyard />
             <hr className="hr-line-width mx-auto p-4" />
