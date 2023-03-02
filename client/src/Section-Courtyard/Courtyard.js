@@ -11,10 +11,10 @@ function Courtyard() {
 
     return (
         <div
-            className="row mb-3 py-5 w-auto justify-content-center"
+            className="row py-5 w-auto justify-content-center"
             id="courtyard"
         >
-            <div className="col section mx-auto my-3 justify-content-center p-2">
+            <div className="col section mx-auto mb-3 justify-content-center p-2">
                 <div className="py-4">
                     <h2 className="py-3 fw-bold text-capitalize">
                         The Courtyard

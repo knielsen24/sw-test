@@ -7,6 +7,7 @@ import PropertyDetails from "../Section-About/PropertyDetails";
 import PropertyMap from "../Section-About/PropertyMap";
 import ToTopButton from "./ToTopButton";
 import HeroImage from "./HeroImage";
+import HrDivider from "./HrDivider";
 
 function Landing() {
     const [toTopButton, setToTopButton] = useState(false);
@@ -29,13 +30,15 @@ function Landing() {
             <HeroImage />
             <About />
             <PropertyMap />
-            <div className="row mx-auto px-3 hr-line justify-content-center">
-                <hr className="my-3" />
-            </div>
+            <>
+                <HrDivider />
+            </>
             <PropertyDetails />
             <ForLease />
             <Courtyard />
-            <hr className="hr-line-width mx-auto p-4" />
+            <>
+                <HrDivider />
+            </>
             <BrandsContainer />
             {toTopButton ? <ToTopButton /> : null}
         </div>
