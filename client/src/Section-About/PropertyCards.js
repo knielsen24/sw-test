@@ -1,9 +1,12 @@
 import { highlightsData } from "../data/PropertyCardsData";
 
 function PropertyCards() {
-    const renderCards = highlightsData.map((card) => {
+    const renderCards = highlightsData.map((card, _index) => {
         return (
-            <div className="col m-2 py-4 px-2 prop-highlights bg-white rounded-4 shadow">
+            <div
+                className="col m-2 py-4 px-2 prop-highlights bg-white rounded-4 shadow"
+                key={_index}
+            >
                 <div className="pb-2">
                     <img src={card.image} width="30px" alt={card.alt} />
                 </div>

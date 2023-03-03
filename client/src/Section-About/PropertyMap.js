@@ -1,7 +1,7 @@
 import { mapURL, landmarksListURL } from "../data/ImageURLS";
+import { googleMaps } from "../data/OtherURLs";
 
 function PropertyMap() {
-    const googleMaps = "https://goo.gl/maps/UgPqfKpSQzDPGErZA";
 
     return (
         <div className="row mx-auto p-4 my-5 align-items-center justify-content-evenly">
