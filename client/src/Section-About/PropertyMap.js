@@ -1,12 +1,7 @@
-import React from "react";
+import { mapURL, landmarksListURL } from "../data/ImageURLS";
 
 function PropertyMap() {
     const googleMaps = "https://goo.gl/maps/UgPqfKpSQzDPGErZA";
-    const mapURL =
-        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001732/Southwells/assets/300_S_Wells_ave_MAP-med_fhhwu5.png";
-
-    const landmarksListURL =
-        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676142310/Southwells/assets/300_S_Wells_ave_landmarks-list_th3wbe.png";
 
     return (
         <div className="row mx-auto p-4 my-5 align-items-center justify-content-evenly">

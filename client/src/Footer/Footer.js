@@ -1,8 +1,8 @@
 import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 import knLogo from "../assets/Logos/Logo KN purple.png";
+import { kevinNielsenURL } from "../data/BrandURLs";
 
 function Footer() {
-    const kevinNielsenURL = "http://kevin-nielsen.webflow.io/";
     return (
         <div className="footer d-flex py-3 mt-auto align-items-center border-top border-1 text-dark ">
             <div className="container text-center py-2">

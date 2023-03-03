@@ -1,10 +1,8 @@
-// import squareFtIcon from "../assets/Icons/square-feet-icon.svg";
+import { floorPlanURL } from "../data/ImageURLS";
 
 function PropertyDetails() {
     const liClassName = "bg-transparent list-group-item border border-0 ";
-    const floorPlanURL =
-        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676001731/Southwells/assets/300_S_Wells_ave_Building_Layout-med_iysjzq.png";
-
+    
     return (
         <div className="row mx-auto my-5 align-items-center justify-content-evenly">
             <div className="col py-5 mx-2 details-section-col-width">
