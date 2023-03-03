@@ -1,5 +1,3 @@
-import React from "react";
-
 function HeroImage() {
     return (
         <div className="row hero-container justify-content-center align-items-center">
