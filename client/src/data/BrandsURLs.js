@@ -1,77 +1,77 @@
-const BrandsData = [
-    {
-        name: "Hand Craft Coffee",
-        logo: "",
-        URL: "https://www.handcraftcoffeecompany.com/",
-        width: "",
-    },
-    {
-        name: "Dorindas Chocolate",
-        logo: "",
-        URL: "https://dorindaschocolates.com/",
-        width: "",
-    },
-    {
-        name: "The Mille Barre",
-        logo: "",
-        URL: "https://themillpilates.com/",
-        width: "",
-    },
-    {
-        name: "Atelier Beauty Bar",
-        logo: "",
-        URL: "https://www.atelierbeautybar.com/",
-        width: "",
-    },
-    {
-        name: "Terraphase",
-        logo: "",
-        URL: "https://terraphase.com/",
-        width: "",
-    },
-    {
-        name: "Entravision",
-        logo: "",
-        URL: "https://entravision.com/",
-        width: "",
-    },
-    {
-        name: "Vanmarlending",
-        logo: "",
-        URL: "https://www.vanmarlending.com/",
-        width: "",
-    },
-    {
-        name: "Walgreens",
-        logo: "",
-        URL: "https://www.walgreens.com/",
-        width: "",
-    },
-    {
-        name: "Ride Concepts",
-        logo: "",
-        URL: "https://rideconcepts.com/",
-        width: "",
-    },
-    {
-        name: "Craig Team Realty",
-        logo: "",
-        URL: "https://www.craigteamrealty.com/",
-        width: "",
-    },
-    {
-        name: "Live Kaya",
-        logo: "",
-        URL: "https://livekaya.com/",
-        width: "",
-    },
-    {
-        name: "Sierra and Sage",
-        logo: "",
-        URL: "https://www.sierraandsage.com/",
-        width: "",
-    },
-];
+// const BrandsData = [
+//     {
+//         name: "Hand Craft Coffee",
+//         logo: "",
+//         URL: "https://www.handcraftcoffeecompany.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Dorindas Chocolate",
+//         logo: "",
+//         URL: "https://dorindaschocolates.com/",
+//         width: "",
+//     },
+//     {
+//         name: "The Mille Barre",
+//         logo: "",
+//         URL: "https://themillpilates.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Atelier Beauty Bar",
+//         logo: "",
+//         URL: "https://www.atelierbeautybar.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Terraphase",
+//         logo: "",
+//         URL: "https://terraphase.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Entravision",
+//         logo: "",
+//         URL: "https://entravision.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Vanmarlending",
+//         logo: "",
+//         URL: "https://www.vanmarlending.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Walgreens",
+//         logo: "",
+//         URL: "https://www.walgreens.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Ride Concepts",
+//         logo: "",
+//         URL: "https://rideconcepts.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Craig Team Realty",
+//         logo: "",
+//         URL: "https://www.craigteamrealty.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Live Kaya",
+//         logo: "",
+//         URL: "https://livekaya.com/",
+//         width: "",
+//     },
+//     {
+//         name: "Sierra and Sage",
+//         logo: "",
+//         URL: "https://www.sierraandsage.com/",
+//         width: "",
+//     },
+// ];
 
 // need to do a complete refactor on the brands data structure, and brands container
 // this may not be the best solution since the there are four rows
