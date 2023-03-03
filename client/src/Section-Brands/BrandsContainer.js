@@ -11,7 +11,7 @@ import {
     craigTeamURL,
     liveKayaURL,
     sierraSageURL,
-} from "../data/BrandURLs";
+} from "../data/BrandsURLs";
 
 import {
     terraphaseLogo,
@@ -29,6 +29,8 @@ import {
 } from "../data/LogoURLs";
 
 function BrandsContainer() {
+    // See BrandsURLs about refactoring
+
     const brandsColClassRow1 = "col mx-3 px-2 my-3 brands-col-width";
     const brandsColClass = "col mx-3 px-1 my-4 brands-col-width";
     const brandsRowsClass =
@@ -36,9 +38,6 @@ function BrandsContainer() {
 
     return (
         <div className="row my-5" id="partners">
-            {/* <h3 className="fw-bold my-3 p-2 text-uppercase">
-                Home of the finest businesses in Reno
-            </h3> */}
             <h3 className="fw-bold p-3 mb-5">
                 Businesses we’ve partnered with
             </h3>

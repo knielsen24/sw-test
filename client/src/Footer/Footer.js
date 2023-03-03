@@ -1,6 +1,6 @@
 import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
 import knLogo from "../assets/Logos/Logo KN purple.png";
-import { kevinNielsenURL } from "../data/BrandURLs";
+import { kevinNielsenURL } from "../data/OtherURLs";
 
 function Footer() {
     return (
@@ -14,9 +14,7 @@ function Footer() {
                             width="150"
                             id="logo-name"
                         />
-                        {/* <a className="" href="/"></a> */}
                     </div>
-                    {/* <div className="col mx-3 my-3">Login</div> */}
                     <div className="col mx-3 my-auto ">
                         <div className="row ">
                             <div className="col p-1 kn-footer-width">
@@ -31,7 +29,6 @@ function Footer() {
                                         src={knLogo}
                                         alt="Kevin Nielsen Logo"
                                         width="35"
-                                        // id="logo-name"
                                     ></img>
                                 </a>
                             </div>
