@@ -5,7 +5,7 @@ function Navbar() {
     const navATagClass = "nav-link mt-2 py-0 text-capitalize";
 
     return (
-        <div className="nav-header m-0 p-0 border-bottom shadow-sm nav-bg fixed-top ">
+        <div className="nav-header m-0 p-2 border-bottom shadow-sm nav-bg fixed-top ">
             <nav
                 className="container navbar navbar-expand-lg rounded "
                 id="navID"
@@ -15,7 +15,7 @@ function Navbar() {
                         <img
                             src={southWellsLogo}
                             alt="300 South Wells Logo"
-                            width="160"
+                            width="200"
                             id="logo-name"
                         />
                     </a>
@@ -54,12 +54,6 @@ function Navbar() {
                                     The Courtyard
                                 </a>
                             </li>
-
-                            {/* <li className={navLinksClass}>
-                                <a className={navATagClass} href="#contact">
-                                    Contact
-                                </a>
-                            </li> */}
                             <li className={navLinksClass}>
                                 <a className={navATagClass} href="#partners">
                                     Patrons
