@@ -1,19 +1,15 @@
 import phoneIcon from "../assets/Icons/phone-icon.svg";
 import emailIcon from "../assets/Icons/email-icon.svg";
 import nielsenLogo from "../assets/Logos/nielsen-logo.png";
+import { courtyardOne } from "../data/ImageURLS";
 
 function Courtyard() {
-    const courtyardOne =
-        "https://res.cloudinary.com/dooa4lvvv/image/upload/v1668067047/Southwells/courtyard/sw-courtyard-1_lburt2.jpg";
     const contactClassPtag = " m-1 mx-2";
     // const contactColTag = "col-6 my-2 contact-col";
     // const pTagClass = "mb-3";
 
     return (
-        <div
-            className="row py-5 w-auto justify-content-center"
-            id="courtyard"
-        >
+        <div className="row py-5 w-auto justify-content-center" id="courtyard">
             <div className="col section mx-auto mb-3 justify-content-center p-2">
                 <div className="py-4">
                     <h2 className="py-3 fw-bold text-capitalize">
