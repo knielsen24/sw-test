@@ -1,15 +1,11 @@
+import { useState } from "react"
 import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
-import {useState} from "react"
 
 function Navbar() {
-    const [navbarPadding, setNavbarPadding] = useState(false)
+    const [navPad, setNavPad] = useState(false)
 
     const adjustNavPad = () => {
-        if (window.scrollY >= 300) {
-            setNavbarPadding(true)
-        } else {
-            setNavbarPadding(false)
-        }
+        (window.scrollY >= 100) ? setNavPad(true) : setNavPad(false)
     };
 
     window.addEventListener("scroll", adjustNavPad);
@@ -18,7 +14,12 @@ function Navbar() {
     const navATagClass = "nav-link mt-2 py-0 text-capitalize";
 
     return (
-        <div className="nav-header m-0 p-2 border-bottom shadow-sm nav-bg fixed-top ">
+        <div className={
+            navPad ?
+                "nav-header m-0 p-0 border-bottom shadow-sm nav-bg fixed-top"
+                :
+                "nav-header m-0 p-2 border-bottom shadow-sm nav-bg fixed-top "
+        }>
             <nav
                 className="container navbar navbar-expand-lg rounded "
                 id="navID"
