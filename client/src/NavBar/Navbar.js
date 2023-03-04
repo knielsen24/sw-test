@@ -1,6 +1,19 @@
 import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
+import {useState} from "react"
 
 function Navbar() {
+    const [navbarPadding, setNavbarPadding] = useState(false)
+
+    const adjustNavPad = () => {
+        if (window.scrollY >= 300) {
+            setNavbarPadding(true)
+        } else {
+            setNavbarPadding(false)
+        }
+    };
+
+    window.addEventListener("scroll", adjustNavPad);
+
     const navLinksClass = "nav-item m-1";
     const navATagClass = "nav-link mt-2 py-0 text-capitalize";
 

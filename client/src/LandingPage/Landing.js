@@ -13,11 +13,8 @@ function Landing() {
     const [toTopButton, setToTopButton] = useState(false);
 
     const showButton = () => {
-        if (window.scrollY >= 700) {
-            setToTopButton(true);
-        } else {
-            setToTopButton(false);
-        }
+        (window.scrollY >= 700) ? setToTopButton(true) : setToTopButton(false);
+        
     };
 
     window.addEventListener("scroll", showButton);
