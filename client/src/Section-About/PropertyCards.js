@@ -4,7 +4,7 @@ function PropertyCards() {
     const renderCards = highlightsData.map((card, _index) => {
         return (
             <div
-                className="col m-2 py-4 px-2 prop-highlights bg-white rounded-4 shadow"
+                className="col m-2 mb-3 py-4 px-1 prop-highlights bg-white rounded-4 shadow"
                 key={_index}
             >
                 <div className="pb-2">
