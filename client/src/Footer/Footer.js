@@ -1,5 +1,4 @@
 import southWellsLogo from "../assets/Logos/3SW-logo-rectangle.png";
-import knLogo from "../assets/Logos/Logo KN purple.png";
 import { kevinNielsenURL } from "../data/OtherURLs";
 
 function Footer() {
