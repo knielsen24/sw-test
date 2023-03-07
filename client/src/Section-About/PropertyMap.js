@@ -33,9 +33,9 @@ function PropertyMap() {
                 </div>
             </div>
             <div className="col my-4 map-section-col-width">
-                <div className="px-4 mx-1 ">
+                <div className="p-1 mx-1 ">
                     <img
-                        className="w-100"
+                        className="w-100 p-4"
                         src={landmarksListURL}
                         alt="major land marks"
                     />
