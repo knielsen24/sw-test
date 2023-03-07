@@ -4,7 +4,7 @@ import nielsenLogo from "../assets/Logos/nielsen-logo.png";
 import { courtyardOne } from "../data/ImageURLS";
 
 function Courtyard() {
-    const contactClassPtag = " m-1 mx-2";
+    const contactClassPtag = "py-1 m-1 mx-2";
     // const contactColTag = "col-6 my-2 contact-col";
     // const pTagClass = "mb-3";
 
