@@ -17,19 +17,15 @@ function Footer() {
                     </div>
                     <div className="col mx-3 my-auto ">
                         <div className="row ">
-                            <div className="col p-1 kn-footer-width">
-                                Designed & built by{" "}
+                            <div className="col kn-footer-width">
+
                                 <a
+                                    className="text-decoration-none text-muted"
                                     target="_blank"
                                     rel="noreferrer"
                                     href={kevinNielsenURL}
                                 >
-                                    <img
-                                        className="rounded-2 p-1 knLogo"
-                                        src={knLogo}
-                                        alt="Kevin Nielsen Logo"
-                                        width="35"
-                                    ></img>
+                                    Designed & built by Kevin Nielsen
                                 </a>
                             </div>
                         </div>
