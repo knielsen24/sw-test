@@ -2,6 +2,7 @@ import "./App.css";
 import Footer from "./Footer/Footer";
 import Landing from "./LandingPage/Landing";
 import Navbar from "./NavBar/Navbar";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
     return (
@@ -13,7 +14,12 @@ function App() {
             id="app-container"
         >
             <Navbar />
-            <Landing />
+            <Routes>
+                <Route path="/" exact element={<Landing />} />
+
+
+            </Routes>
+
             <Footer />
         </body>
     );
